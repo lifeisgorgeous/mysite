@@ -12,6 +12,15 @@
     
     
     <item>
+      <title>About</title>
+      <link>/about/</link>
+      <pubDate>Mon, 17 Aug 2020 16:20:15 +0600</pubDate>
+      
+      <guid>/about/</guid>
+      <description>Hi there! This is Solaiman Hridoy, a final year Computer Science and Engineering student currently enrolled at USTC with an interest in Programming, Problem Solving, Software Developing, and Data Science.</description>
+    </item>
+    
+    <item>
       <title>My First Post</title>
       <link>/post/my-first-post/</link>
       <pubDate>Mon, 17 Aug 2020 15:31:48 +0600</pubDate>
