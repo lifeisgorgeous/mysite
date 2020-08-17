@@ -34,22 +34,23 @@ use = "katex"  # options: "katex", "mathjax". default is "katex".
 [[params.socialIcons]]
 icon = "fa-linkedin"
 title = "Linkedin"
-url = "https://de.linkedin.com/"
+url = "https://www.linkedin.com/in/solaimanhridoy"
 
 [[params.socialIcons]]
 icon = "fa-github"
 title = "GitHub"
-url = "https://github.com/lxndrblz/anatole/"
+url = "https://github.com/solaimanhridoy/"
 
 [[params.socialIcons]]
-icon = "fa-instagram"
-title = "instagram"
-url = "https://www.instagram.com/"
+icon = "fa-facebook"
+title = "facebook"
+url = "https://www.facebook.com/solaimanhrid0y"
+weight = 3 
 
 [[params.socialIcons]]
-icon = "fa-envelope"
+icon = "fa-gmail"
 title = "e-mail"
-url = "mailto:mail@alexbilz.com"
+url = "solaimanhridoy@gmail.com"
 
 ## Menu items
 
