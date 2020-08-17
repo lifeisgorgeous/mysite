@@ -3,26 +3,26 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://example.com/post/my-first-post/</loc>
+    <loc>/post/my-first-post/</loc>
     <lastmod>2020-08-17T15:31:48+06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/post/</loc>
+    <loc>/post/</loc>
     <lastmod>2020-08-17T15:31:48+06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/</loc>
+    <loc>/</loc>
     <lastmod>2020-08-17T15:31:48+06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/categories/</loc>
+    <loc>/categories/</loc>
   </url>
   
   <url>
-    <loc>https://example.com/tags/</loc>
+    <loc>/tags/</loc>
   </url>
   
 </urlset>
