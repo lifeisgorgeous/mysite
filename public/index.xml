@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Website of Jane Doe</title>
+    <title>Website of Solaiman Hridoy</title>
     <link>/</link>
-    <description>Recent content on Website of Jane Doe</description>
+    <description>Recent content on Website of Solaiman Hridoy</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Mon, 17 Aug 2020 15:31:48 +0600</lastBuildDate>
@@ -12,9 +12,9 @@
     
     
     <item>
-      <title>About</title>
+      <title>About Me</title>
       <link>/about/</link>
-      <pubDate>Mon, 17 Aug 2020 16:20:15 +0600</pubDate>
+      <pubDate>Sat, 22 Aug 2020 21:04:42 +0600</pubDate>
       
       <guid>/about/</guid>
       <description>Hi there! This is Solaiman Hridoy, a final year Computer Science and Engineering student currently enrolled at USTC with an interest in Programming, Problem Solving, Software Developing, and Data Science.</description>
@@ -26,7 +26,7 @@
       <pubDate>Mon, 17 Aug 2020 15:31:48 +0600</pubDate>
       
       <guid>/post/my-first-post/</guid>
-      <description></description>
+      <description>I can&amp;rsquo;t explain with just in one blog how much fun it was to begin my personal website!</description>
     </item>
     
   </channel>

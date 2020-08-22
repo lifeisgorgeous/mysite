@@ -1,8 +1,9 @@
 ---
-title: "About"
-date: 2020-08-17T16:20:15+06:00
+title: "About Me"
+date: 2020-08-22T21:04:42+06:00
 draft: true
 ---
+
 ## Hi there!
 
 This is Solaiman Hridoy, a final year Computer Science and Engineering student currently enrolled at USTC with an interest in Programming, Problem Solving, Software Developing, and Data Science.
