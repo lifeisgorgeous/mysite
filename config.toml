@@ -15,7 +15,7 @@
 baseURL = "https://www.solaimanhridoy.com/"
 languageCode = "en-us"
 defaultContentLanguage = "en-us"
-title = "Solaiman Hridoy's Blog"
+title = "Solaiman's Blog"
 theme = "hugo-tranquilpeak-theme"
 disqusShortname = "lib10"
 googleAnalytics = "UA-173154725-1"
