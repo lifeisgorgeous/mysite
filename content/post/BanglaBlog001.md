@@ -1,19 +1,22 @@
 ---
 title: "ব্যক্তিগত  ব্লগ  সাইট  খোলার  আদ্যোপান্ত"
 date: 2020-08-23T22:28:25+06:00
-draft: true
-Description: ""
-Tags: [শুরু, জীবন, শিক্ষা]
-Categories: [বাংলা ব্লগ]
-DisableComments: false
-autoThumbnailImage: false
+categories:
+- বাংলা ব্লগ
+tags:
+- শুরু
+- জীবন
+- শিক্ষা
+keywords:
+- blog
 thumbnailImagePosition: "top"
 thumbnailImage: //res.cloudinary.com/ddlohuyww/image/upload/v1598203720/images/888_dov7sm.png
 coverImage: https://res.cloudinary.com/ddlohuyww/image/upload/v1598203927/images/blur888_nqhspw.png
 metaAlignment: center
 coverCaption: "A Blog Post"
-
 ---
+
+<!--more-->
 
 গত প্রায় তিন বছর ধরে চেষ্টা করে যাচ্ছিলাম ইন্টারনেট দুনিয়ায় নিজের একটা স্থায়ী ঠিকানা গড়ে তোলার। লেখার হাতটা এখনো ভাল করে না পাকলেও, ব্লগ কন্টেন্টের প্রতিই আমার ঝোঁক বেশি ছিলো! অবসর সময়ে আমি যেমন প্রচুর ব্লগ ও আর্টিকেল পড়তে পছন্দ করি তেমনি লেখালেখি করতেও সমানভাবেই ভালবাসি। 
 
@@ -45,4 +48,4 @@ coverCaption: "A Blog Post"
 
 
 
-Photo [Designed by valeria_aksakova / Freepik](http://www.freepik.com)
+Photo [Designed by valeria_aksakova / Freepik](
