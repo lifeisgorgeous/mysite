@@ -1,12 +1,12 @@
 ---
-title: "About Me"
+title: "About Solaiman Hridoy"
 date: 2020-08-22T21:04:42+06:00
 draft: true
 ---
 
 ## Hi there!
 
-This is Solaiman Hridoy, a final year Computer Science and Engineering student currently enrolled at USTC with an interest in Programming, Problem Solving, Software Developing, and Data Science.
+This is Solaiman Hridoy, a final year Computer Science and Engineering student with an interest in Programming, Problem Solving, Software Developing, and Data Science.
 
 I am a self-motivated young man from a small town called Chittagong, the Port City of Bangladesh who is passionately trying to be a better version of himself every day.
 
