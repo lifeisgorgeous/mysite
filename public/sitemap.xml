@@ -3,6 +3,46 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/bn/</loc>
+    <lastmod>2020-08-22T22:26:59+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/</loc>
+    <lastmod>2020-08-22T22:26:59+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2020-08-22T22:26:59+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2020-08-22T22:26:59+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/%E0%A6%9C%E0%A7%80%E0%A6%AC%E0%A6%A8/</loc>
+    <lastmod>2020-08-22T22:26:59+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/bn/life_was_beautiful/</loc>
+    <lastmod>2020-08-22T22:26:59+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/%E0%A6%AC%E0%A6%BE%E0%A6%82%E0%A6%B2%E0%A6%BE-%E0%A6%AC%E0%A7%8D%E0%A6%B2%E0%A6%97/</loc>
+    <lastmod>2020-08-22T22:26:59+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/%E0%A6%B6%E0%A6%BF%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A6%BE/</loc>
+    <lastmod>2020-08-22T22:26:59+06:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/about/</loc>
     <lastmod>2020-08-22T21:04:42+06:00</lastmod>
   </url>
@@ -15,19 +55,6 @@
   <url>
     <loc>/post/</loc>
     <lastmod>2020-08-17T15:31:48+06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/</loc>
-    <lastmod>2020-08-17T15:31:48+06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/categories/</loc>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
   </url>
   
 </urlset>

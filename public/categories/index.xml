@@ -6,9 +6,19 @@
     <description>Recent content in Categories on Website of Solaiman Hridoy</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
+    <lastBuildDate>Sat, 22 Aug 2020 22:26:59 +0600</lastBuildDate>
     
 	<atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>বাংলা ব্লগ</title>
+      <link>/categories/%E0%A6%AC%E0%A6%BE%E0%A6%82%E0%A6%B2%E0%A6%BE-%E0%A6%AC%E0%A7%8D%E0%A6%B2%E0%A6%97/</link>
+      <pubDate>Sat, 22 Aug 2020 22:26:59 +0600</pubDate>
+      
+      <guid>/categories/%E0%A6%AC%E0%A6%BE%E0%A6%82%E0%A6%B2%E0%A6%BE-%E0%A6%AC%E0%A7%8D%E0%A6%B2%E0%A6%97/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>

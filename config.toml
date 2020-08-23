@@ -14,6 +14,7 @@ enableRobotsTXT = true
 googleAnalytics = "UA-173154725-1"
 
 [params]
+displayMode = "dark"
 title = "Solaiman Hridoy"
 author = "Solaiman Hridoy"
 description = "Life Is Gorgeous."
@@ -28,6 +29,8 @@ images = ["images/site-feature-image.png"]
 footerCopyright = ' &#183; <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
 
 code_copy_button = true
+
+
 
 ## Math settings
 [params.math]
@@ -78,6 +81,11 @@ url = "solaimanhridoy@gmail.com"
   identifier = "about"
   url = "/about/"
 
+  [[menu.main]]
+  name = "বাংলা ব্লগ"
+  weight = 400
+  identifier = "ব্লগ"
+  url = "/bn/"
 
 
 

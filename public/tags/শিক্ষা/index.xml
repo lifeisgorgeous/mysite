@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Website of Solaiman Hridoy</title>
-    <link>/</link>
-    <description>Recent content on Website of Solaiman Hridoy</description>
+    <title>শিক্ষা on Website of Solaiman Hridoy</title>
+    <link>/tags/%E0%A6%B6%E0%A6%BF%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A6%BE/</link>
+    <description>Recent content in শিক্ষা on Website of Solaiman Hridoy</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Sat, 22 Aug 2020 22:26:59 +0600</lastBuildDate>
     
-	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/%E0%A6%B6%E0%A6%BF%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A6%BE/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -18,24 +18,6 @@
       
       <guid>/bn/life_was_beautiful/</guid>
       <description>হ্যাঁ জীবন ছিলো সুন্দর! যখন ছায়পাশ সাদা রঙের মেঘের সাথে গাঢ় নীলে মোড়ানো আকাশটাতে প্রথমবারের মতো নাটাই ছেড়ে ঘুড়িটা আকাশে পাঠিয়েছিলাম, যখন একটা কাটির মধ্যে এক টাকার সুতো মুড়িয়ে গর্তের কেঁচোটাকে তুলে মাছকে বোকা বানাতে প্রথম বারের মতো চেষ্টা চালালাম!</description>
-    </item>
-    
-    <item>
-      <title>About Me</title>
-      <link>/about/</link>
-      <pubDate>Sat, 22 Aug 2020 21:04:42 +0600</pubDate>
-      
-      <guid>/about/</guid>
-      <description>Hi there! This is Solaiman Hridoy, a final year Computer Science and Engineering student currently enrolled at USTC with an interest in Programming, Problem Solving, Software Developing, and Data Science.</description>
-    </item>
-    
-    <item>
-      <title>My First Post</title>
-      <link>/post/my-first-post/</link>
-      <pubDate>Mon, 17 Aug 2020 15:31:48 +0600</pubDate>
-      
-      <guid>/post/my-first-post/</guid>
-      <description>I can&amp;rsquo;t explain with just in one blog how much fun it was to begin my personal website!</description>
     </item>
     
   </channel>

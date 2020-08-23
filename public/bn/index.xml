@@ -1,14 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>সোলায়মান হৃদয়</title>
+    <title>Bns on Website of Solaiman Hridoy</title>
     <link>/bn/</link>
-    <description>Recent content on সোলায়মান হৃদয়</description>
+    <description>Recent content in Bns on Website of Solaiman Hridoy</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
+    <lastBuildDate>Sat, 22 Aug 2020 22:26:59 +0600</lastBuildDate>
     
 	<atom:link href="/bn/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>জীবন ছিলো সুন্দর!</title>
+      <link>/bn/life_was_beautiful/</link>
+      <pubDate>Sat, 22 Aug 2020 22:26:59 +0600</pubDate>
+      
+      <guid>/bn/life_was_beautiful/</guid>
+      <description>হ্যাঁ জীবন ছিলো সুন্দর! যখন ছায়পাশ সাদা রঙের মেঘের সাথে গাঢ় নীলে মোড়ানো আকাশটাতে প্রথমবারের মতো নাটাই ছেড়ে ঘুড়িটা আকাশে পাঠিয়েছিলাম, যখন একটা কাটির মধ্যে এক টাকার সুতো মুড়িয়ে গর্তের কেঁচোটাকে তুলে মাছকে বোকা বানাতে প্রথম বারের মতো চেষ্টা চালালাম!</description>
+    </item>
     
   </channel>
 </rss>
