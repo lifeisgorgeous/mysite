@@ -1,25 +1,24 @@
-<div class="sidebar animated fadeInDown">
-    <div class="logo-title">
-      <div class="title">
-        <img src="{{ .Site.Params.profilePicture | absURL }}" alt="profile picture">
-        <h3 title=""><a href="/">{{ .Site.Params.Title }}</a></h3>
-        <div class="description">
-          <p>{{ .Site.Params.description }}</p>
-        </div>
-      </div>
-    </div>
-    <ul class="social-links">
-        {{ range $item := .Site.Params.socialIcons }}
-        <li>
-        <a href="{{ $item.url }}" rel="me" aria-label="{{ $item.title }}">
-          <i class="fa fa-2x {{ $item.icon }}" aria-hidden="true"></i>
-        </a>          
-        </li>
-
+<nav id="sidebar" data-behavior="{{ .Scratch.Get "sidebarBehavior" }}">
+  <div class="sidebar-container">
+    {{ with ($.Scratch.Get "authorPicture") }}
+      <div class="sidebar-profile">
+        <a href="{{ if $.Site.Params.sidebar.profile.url }}{{ $.Site.Params.sidebar.profile.url }}{{ else }}{{ "/#about" }}{{ end }}">
+          <img class="sidebar-profile-picture" src="{{ . }}{{ if in . "//www.gravatar.com/avatar/" }}?s=110{{ end }}" alt="{{ i18n "global.author_picture" }}" />
+        </a>
+        <h4 class="sidebar-profile-name">{{ $.Site.Author.name }}</h4>
+        {{ with $.Site.Author.bio }}
+          <h5 class="sidebar-profile-bio">{{ . | markdownify }}</h5>
         {{ end }}
-    </ul>
-    <div class="footer">
-        <div class="by_farbox">&copy; {{ .Site.Params.author }} {{ now.Format "2006"}} </div>
       </div>
-    </div>
-</div>
+    {{ end }}
+    <ul class="sidebar-buttons">
+      {{ partial "menu.html" (dict "menu" .Site.Menus.main "root" $) }}
+    </ul>
+    <ul class="sidebar-buttons">
+      {{ partial "menu.html" (dict "menu" .Site.Menus.links "root" $) }}
+    </ul>
+    <ul class="sidebar-buttons">
+      {{ partial "menu.html" (dict "menu" .Site.Menus.misc "root" $) }}
+    </ul>
+  </div>
+</nav>

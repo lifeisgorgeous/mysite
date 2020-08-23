@@ -3,58 +3,77 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/bn/</loc>
+    <loc>https://www.solaimanhridoy.com/categories/</loc>
+    <lastmod>2020-08-23T22:28:25+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.solaimanhridoy.com/post/</loc>
+    <lastmod>2020-08-23T22:28:25+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.solaimanhridoy.com/</loc>
+    <lastmod>2020-08-23T22:28:25+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.solaimanhridoy.com/tags/</loc>
+    <lastmod>2020-08-23T22:28:25+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.solaimanhridoy.com/tags/%E0%A6%9C%E0%A7%80%E0%A6%AC%E0%A6%A8/</loc>
+    <lastmod>2020-08-23T22:28:25+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.solaimanhridoy.com/categories/%E0%A6%AC%E0%A6%BE%E0%A6%82%E0%A6%B2%E0%A6%BE-%E0%A6%AC%E0%A7%8D%E0%A6%B2%E0%A6%97/</loc>
+    <lastmod>2020-08-23T22:28:25+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.solaimanhridoy.com/2020/08/%E0%A6%AC%E0%A7%8D%E0%A6%AF%E0%A6%95%E0%A7%8D%E0%A6%A4%E0%A6%BF%E0%A6%97%E0%A6%A4-%E0%A6%AC%E0%A7%8D%E0%A6%B2%E0%A6%97-%E0%A6%B8%E0%A6%BE%E0%A6%87%E0%A6%9F-%E0%A6%96%E0%A7%8B%E0%A6%B2%E0%A6%BE%E0%A6%B0-%E0%A6%86%E0%A6%A6%E0%A7%8D%E0%A6%AF%E0%A7%8B%E0%A6%AA%E0%A6%BE%E0%A6%A8%E0%A7%8D%E0%A6%A4/</loc>
+    <lastmod>2020-08-23T22:28:25+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.solaimanhridoy.com/tags/%E0%A6%B6%E0%A6%BF%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A6%BE/</loc>
+    <lastmod>2020-08-23T22:28:25+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.solaimanhridoy.com/tags/%E0%A6%B6%E0%A7%81%E0%A6%B0%E0%A7%81/</loc>
+    <lastmod>2020-08-23T22:28:25+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.solaimanhridoy.com/bn/</loc>
     <lastmod>2020-08-22T22:26:59+06:00</lastmod>
   </url>
   
   <url>
-    <loc>/categories/</loc>
+    <loc>https://www.solaimanhridoy.com/bn/life_was_beautiful/</loc>
     <lastmod>2020-08-22T22:26:59+06:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/</loc>
+    <loc>https://www.solaimanhridoy.com/2020/08/%E0%A6%9C%E0%A7%80%E0%A6%AC%E0%A6%A8-%E0%A6%9B%E0%A6%BF%E0%A6%B2%E0%A7%8B-%E0%A6%B8%E0%A7%81%E0%A6%A8%E0%A7%8D%E0%A6%A6%E0%A6%B0/</loc>
     <lastmod>2020-08-22T22:26:59+06:00</lastmod>
   </url>
   
   <url>
-    <loc>/</loc>
-    <lastmod>2020-08-22T22:26:59+06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/%E0%A6%9C%E0%A7%80%E0%A6%AC%E0%A6%A8/</loc>
-    <lastmod>2020-08-22T22:26:59+06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/bn/life_was_beautiful/</loc>
-    <lastmod>2020-08-22T22:26:59+06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/categories/%E0%A6%AC%E0%A6%BE%E0%A6%82%E0%A6%B2%E0%A6%BE-%E0%A6%AC%E0%A7%8D%E0%A6%B2%E0%A6%97/</loc>
-    <lastmod>2020-08-22T22:26:59+06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/%E0%A6%B6%E0%A6%BF%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A6%BE/</loc>
-    <lastmod>2020-08-22T22:26:59+06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/about/</loc>
+    <loc>https://www.solaimanhridoy.com/about/</loc>
     <lastmod>2020-08-22T21:04:42+06:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/my-first-post/</loc>
+    <loc>https://www.solaimanhridoy.com/2020/08/my-first-post/</loc>
     <lastmod>2020-08-17T15:31:48+06:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/</loc>
-    <lastmod>2020-08-17T15:31:48+06:00</lastmod>
+    <loc>https://www.solaimanhridoy.com/archives/</loc>
   </url>
   
 </urlset>

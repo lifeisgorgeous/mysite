@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="generator" content="Hugo 0.74.3 with theme Tranquilpeak 0.4.8-BETA">
+<meta name="author" content="Solaiman Hridoy">
+<meta name="keywords" content="">
+<meta name="description" content="গত প্রায় তিন বছর ধরে চেষ্টা করে যাচ্ছিলাম ইন্টারনেট দুনিয়ায় নিজের একটা স্থায়ী ঠিকানা গড়ে তোলার। লেখার হাতটা এখনো ভাল করে না পাকলেও, ব্লগ কন্টেন্টের প্রতিই আমার ঝোঁক বেশি ছিলো! অবসর সময়ে আমি যেমন প্রচুর ব্লগ ও আর্টিকেল পড়তে পছন্দ করি তেমনি লেখালেখি করতেও সমানভাবেই ভালবাসি।
+বিশ্ববিদ্যালয় জীবনের প্রথম বর্ষ থেকেই মাথায় এমন একটা ব্লগ সাইটের আইডিয়া ওতপেতে ছিলো, যেখানে আমি টেকনিকাল কন্টেন্ট সহ নিজের ব্যক্তিগত চিন্তাধারা বাংলা ও ইংরেজী দুই ভাষার হরফেই সমানভাবে যেন বৈঠা বেয়ে যেতে পারি!">
+
+
+<meta property="og:description" content="গত প্রায় তিন বছর ধরে চেষ্টা করে যাচ্ছিলাম ইন্টারনেট দুনিয়ায় নিজের একটা স্থায়ী ঠিকানা গড়ে তোলার। লেখার হাতটা এখনো ভাল করে না পাকলেও, ব্লগ কন্টেন্টের প্রতিই আমার ঝোঁক বেশি ছিলো! অবসর সময়ে আমি যেমন প্রচুর ব্লগ ও আর্টিকেল পড়তে পছন্দ করি তেমনি লেখালেখি করতেও সমানভাবেই ভালবাসি।
+বিশ্ববিদ্যালয় জীবনের প্রথম বর্ষ থেকেই মাথায় এমন একটা ব্লগ সাইটের আইডিয়া ওতপেতে ছিলো, যেখানে আমি টেকনিকাল কন্টেন্ট সহ নিজের ব্যক্তিগত চিন্তাধারা বাংলা ও ইংরেজী দুই ভাষার হরফেই সমানভাবে যেন বৈঠা বেয়ে যেতে পারি!">
+<meta property="og:type" content="article">
+<meta property="og:title" content="ব্যক্তিগত  ব্লগ  সাইট  খোলার  আদ্যোপান্ত">
+<meta name="twitter:title" content="ব্যক্তিগত  ব্লগ  সাইট  খোলার  আদ্যোপান্ত">
+<meta property="og:url" content="https://www.solaimanhridoy.com/2020/08/%E0%A6%AC%E0%A7%8D%E0%A6%AF%E0%A6%95%E0%A7%8D%E0%A6%A4%E0%A6%BF%E0%A6%97%E0%A6%A4-%E0%A6%AC%E0%A7%8D%E0%A6%B2%E0%A6%97-%E0%A6%B8%E0%A6%BE%E0%A6%87%E0%A6%9F-%E0%A6%96%E0%A7%8B%E0%A6%B2%E0%A6%BE%E0%A6%B0-%E0%A6%86%E0%A6%A6%E0%A7%8D%E0%A6%AF%E0%A7%8B%E0%A6%AA%E0%A6%BE%E0%A6%A8%E0%A7%8D%E0%A6%A4/">
+<meta property="twitter:url" content="https://www.solaimanhridoy.com/2020/08/%E0%A6%AC%E0%A7%8D%E0%A6%AF%E0%A6%95%E0%A7%8D%E0%A6%A4%E0%A6%BF%E0%A6%97%E0%A6%A4-%E0%A6%AC%E0%A7%8D%E0%A6%B2%E0%A6%97-%E0%A6%B8%E0%A6%BE%E0%A6%87%E0%A6%9F-%E0%A6%96%E0%A7%8B%E0%A6%B2%E0%A6%BE%E0%A6%B0-%E0%A6%86%E0%A6%A6%E0%A7%8D%E0%A6%AF%E0%A7%8B%E0%A6%AA%E0%A6%BE%E0%A6%A8%E0%A7%8D%E0%A6%A4/">
+<meta property="og:site_name" content="Solaiman Hridoy&#39;s Blog">
+<meta property="og:description" content="গত প্রায় তিন বছর ধরে চেষ্টা করে যাচ্ছিলাম ইন্টারনেট দুনিয়ায় নিজের একটা স্থায়ী ঠিকানা গড়ে তোলার। লেখার হাতটা এখনো ভাল করে না পাকলেও, ব্লগ কন্টেন্টের প্রতিই আমার ঝোঁক বেশি ছিলো! অবসর সময়ে আমি যেমন প্রচুর ব্লগ ও আর্টিকেল পড়তে পছন্দ করি তেমনি লেখালেখি করতেও সমানভাবেই ভালবাসি।
+বিশ্ববিদ্যালয় জীবনের প্রথম বর্ষ থেকেই মাথায় এমন একটা ব্লগ সাইটের আইডিয়া ওতপেতে ছিলো, যেখানে আমি টেকনিকাল কন্টেন্ট সহ নিজের ব্যক্তিগত চিন্তাধারা বাংলা ও ইংরেজী দুই ভাষার হরফেই সমানভাবে যেন বৈঠা বেয়ে যেতে পারি!">
+<meta name="twitter:description" content="গত প্রায় তিন বছর ধরে চেষ্টা করে যাচ্ছিলাম ইন্টারনেট দুনিয়ায় নিজের একটা স্থায়ী ঠিকানা গড়ে তোলার। লেখার হাতটা এখনো ভাল করে না পাকলেও, ব্লগ কন্টেন্টের প্রতিই আমার ঝোঁক বেশি ছিলো! অবসর সময়ে আমি যেমন প্রচুর ব্লগ ও আর্টিকেল পড়তে পছন্দ করি তেমনি লেখালেখি করতেও সমানভাবেই ভালবাসি।
+বিশ্ববিদ্যালয় জীবনের প্রথম বর্ষ থেকেই মাথায় এমন একটা ব্লগ সাইটের আইডিয়া ওতপেতে ছিলো, যেখানে আমি টেকনিকাল কন্টেন্ট সহ নিজের ব্যক্তিগত চিন্তাধারা বাংলা ও ইংরেজী দুই ভাষার হরফেই সমানভাবে যেন বৈঠা বেয়ে যেতে পারি!">
+<meta property="og:locale" content="en-us">
+
+  
+    <meta property="article:published_time" content="2020-08-23T22:28:25">
+  
+  
+    <meta property="article:modified_time" content="2020-08-23T22:28:25">
+  
+  
+  
+    
+      <meta property="article:section" content="বাংলা ব্লগ">
+    
+  
+  
+    
+      <meta property="article:tag" content="শুরু">
+    
+      <meta property="article:tag" content="জীবন">
+    
+      <meta property="article:tag" content="শিক্ষা">
+    
+  
+
+
+<meta name="twitter:card" content="summary">
+
+
+
+
+
+
+
+  <meta property="og:image" content="//res.cloudinary.com/ddlohuyww/image/upload/v1598203720/images/888_dov7sm.png">
+  <meta property="twitter:image" content="//res.cloudinary.com/ddlohuyww/image/upload/v1598203720/images/888_dov7sm.png">
+
+
+  <meta property="og:image" content="https://res.cloudinary.com/ddlohuyww/image/upload/v1598203927/images/blur888_nqhspw.png">
+  <meta property="twitter:image" content="https://res.cloudinary.com/ddlohuyww/image/upload/v1598203927/images/blur888_nqhspw.png">
+
+
+
+
+  <meta property="og:image" content="https://res.cloudinary.com/ddlohuyww/image/upload/v1598202275/images/My-Pic02_rii70m.png">
+  <meta property="twitter:image" content="https://res.cloudinary.com/ddlohuyww/image/upload/v1598202275/images/My-Pic02_rii70m.png">
+
+
+    <title>ব্যক্তিগত  ব্লগ  সাইট  খোলার  আদ্যোপান্ত</title>
+
+    <link rel="icon" href="https://www.solaimanhridoy.com/favicon.png">
+    
+
+    
+
+    <link rel="canonical" href="https://www.solaimanhridoy.com/2020/08/%E0%A6%AC%E0%A7%8D%E0%A6%AF%E0%A6%95%E0%A7%8D%E0%A6%A4%E0%A6%BF%E0%A6%97%E0%A6%A4-%E0%A6%AC%E0%A7%8D%E0%A6%B2%E0%A6%97-%E0%A6%B8%E0%A6%BE%E0%A6%87%E0%A6%9F-%E0%A6%96%E0%A7%8B%E0%A6%B2%E0%A6%BE%E0%A6%B0-%E0%A6%86%E0%A6%A6%E0%A7%8D%E0%A6%AF%E0%A7%8B%E0%A6%AA%E0%A6%BE%E0%A6%A8%E0%A7%8D%E0%A6%A4/">
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.4/jquery.fancybox.min.css" integrity="sha256-vuXZ9LGmmwtjqFX1F+EKin1ThZMub58gKULUyf0qECk=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.4/helpers/jquery.fancybox-thumbs.min.css" integrity="sha256-SEa4XYAHihTcEP1f5gARTB2K26Uk8PsndQYHQC1f4jU=" crossorigin="anonymous" />
+    
+    
+    <link rel="stylesheet" href="https://www.solaimanhridoy.com/css/style-twzjdbqhmnnacqs0pwwdzcdbt8yhv8giawvjqjmyfoqnvazl0dalmnhdkvp7.min.css" />
+    
+    
+
+    
+      
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-173154725-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+
+    
+    
+  </head>
+
+  <body>
+    <div id="blog">
+      <header id="header" data-behavior="4">
+  <i id="btn-open-sidebar" class="fa fa-lg fa-bars"></i>
+  <div class="header-title">
+    <a class="header-title-link" href="https://www.solaimanhridoy.com/">Solaiman Hridoy&#39;s Blog</a>
+  </div>
+  
+    
+      <a class="header-right-picture "
+         href="https://www.solaimanhridoy.com/#about">
+    
+    
+    
+      
+        <img class="header-picture" src="https://res.cloudinary.com/ddlohuyww/image/upload/v1598202275/images/My-Pic02_rii70m.png" alt="Author&#39;s picture" />
+      
+    
+    </a>
+  
+</header>
+
+      <nav id="sidebar" data-behavior="4">
+  <div class="sidebar-container">
+    
+      <div class="sidebar-profile">
+        <a href="https://www.solaimanhridoy.com/#about">
+          <img class="sidebar-profile-picture" src="https://res.cloudinary.com/ddlohuyww/image/upload/v1598202275/images/My-Pic02_rii70m.png" alt="Author&#39;s picture" />
+        </a>
+        <h4 class="sidebar-profile-name">Solaiman Hridoy</h4>
+        
+          <h5 class="sidebar-profile-bio">Life Is <strong>Gorgeous</strong></h5>
+        
+      </div>
+    
+    <ul class="sidebar-buttons">
+      
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://www.solaimanhridoy.com/">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-home"></i>
+      
+      <span class="sidebar-button-desc">Home</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://www.solaimanhridoy.com/categories">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-bookmark"></i>
+      
+      <span class="sidebar-button-desc">Categories</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://www.solaimanhridoy.com/tags">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-tags"></i>
+      
+      <span class="sidebar-button-desc">Tags</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://www.solaimanhridoy.com/archives">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-archive"></i>
+      
+      <span class="sidebar-button-desc">Archives</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://www.solaimanhridoy.com/#about">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-question"></i>
+      
+      <span class="sidebar-button-desc">About</span>
+    </a>
+  </li>
+
+
+    </ul>
+    <ul class="sidebar-buttons">
+      
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://github.com/solaimanhridoy/" target="_blank" rel="noopener">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-github"></i>
+      
+      <span class="sidebar-button-desc">GitHub</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://www.linkedin.com/in/solaimanhridoy" target="_blank" rel="noopener">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-linkedin"></i>
+      
+      <span class="sidebar-button-desc">Linkedin</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://www.facebook.com/solaimanhrid0y" target="_blank" rel="noopener">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-facebook"></i>
+      
+      <span class="sidebar-button-desc">Facebook</span>
+    </a>
+  </li>
+
+
+    </ul>
+    <ul class="sidebar-buttons">
+      
+
+    </ul>
+  </div>
+</nav>
+
+      
+  <div class="post-header-cover
+              text-center
+              "
+       style="background-image:url('https://res.cloudinary.com/ddlohuyww/image/upload/v1598203927/images/blur888_nqhspw.png')"
+       data-behavior="4">
+    
+      <div class="post-header main-content-wrap text-center">
+  
+    <h1 class="post-title" itemprop="headline">
+      ব্যক্তিগত  ব্লগ  সাইট  খোলার  আদ্যোপান্ত
+    </h1>
+  
+  
+  <div class="postShorten-meta post-meta">
+    
+      <time itemprop="datePublished" datetime="2020-08-23T22:28:25&#43;06:00">
+        
+  August 23, 2020
+
+      </time>
+    
+    
+  
+  
+    <span>in</span>
+    
+      <a class="category-link" href="https://www.solaimanhridoy.com/categories/%e0%a6%ac%e0%a6%be%e0%a6%82%e0%a6%b2%e0%a6%be-%e0%a6%ac%e0%a7%8d%e0%a6%b2%e0%a6%97">বাংলা ব্লগ</a>
+    
+  
+
+  </div>
+
+</div>
+    
+  </div>
+
+
+      <div id="main" data-behavior="4"
+        class="hasCover
+               hasCoverMetaIn
+               hasCoverCaption">
+        <article class="post" itemscope itemType="http://schema.org/BlogPosting">
+          
+            <span class="post-header-cover-caption caption">A Blog Post</span>
+          
+          
+          <div class="post-content markdown" itemprop="articleBody">
+            <div class="main-content-wrap">
+              <p>গত প্রায় তিন বছর ধরে চেষ্টা করে যাচ্ছিলাম ইন্টারনেট দুনিয়ায় নিজের একটা স্থায়ী ঠিকানা গড়ে তোলার। লেখার হাতটা এখনো ভাল করে না পাকলেও, ব্লগ কন্টেন্টের প্রতিই আমার ঝোঁক বেশি ছিলো! অবসর সময়ে আমি যেমন প্রচুর ব্লগ ও আর্টিকেল পড়তে পছন্দ করি তেমনি লেখালেখি করতেও সমানভাবেই ভালবাসি।</p>
+<p>বিশ্ববিদ্যালয় জীবনের প্রথম বর্ষ থেকেই মাথায় এমন একটা ব্লগ সাইটের আইডিয়া ওতপেতে ছিলো, যেখানে আমি টেকনিকাল কন্টেন্ট সহ নিজের ব্যক্তিগত চিন্তাধারা বাংলা ও ইংরেজী দুই ভাষার হরফেই সমানভাবে যেন বৈঠা বেয়ে যেতে পারি!</p>
+<p>স্কুল জীবন থেকেই নিজের স্কুল অ্যাসাইনমেন্ট হোমওয়ার্ক ছাড়াও, অন্যান্য আরো কিছু লেখালেখি করার চেষ্টা করতাম। লিখতাম মূলত দৈনন্দিন বিষয়াদি নিয়ে, দিনের সব মজার বা বিশেষ ঘটনার কথা ব্যক্তিগত ডায়েরীতে টুকে রাখতাম! স্টেশনারি দোকানে গেলেই সবার আগে হরেক রকমের ডায়েরী/নোটবুকে আমার চোখ আটকে থাকতো, কোনটা রেখে কোনটা কিনবো দ্বিধায় পড়ে যেতাম! ডায়েরী/নোটবুকের প্রতি সবসময় একটা দুর্বলতা এবং ভাললাগা উভয়ই কাজ করতো।</p>
+<p>নবম/দশম শ্রেনীতে লেখালেখির পরিমাণ অল্প অল্প করে বাড়তে থাকে। তারও অনেক আগে যখন একদম ছোট্ট বয়স; মানে বাল্যকালের শুরু, যখন সবে মাত্র প্রিস্কুলিং &lsquo;কেজি&rsquo; শেষে প্রথম শ্রেণী পড়ুয়া স্কুল আঙ্গিনায় প্রচুর দৌড়াদৌড়ি করা আর বাসায় ফিরে ঝিমিয়ে ঝিমিয়ে পড়াশোনা করার বয়সটাতেই চিঠি লেখা শুরু করি! হ্যাঁ, আমার বাবার কাছে পাঠানোর জন্য আম্মু আমাকে দিয়ে চিঠি লেখাতো। সেগুলো ছিলো একদম বাবা-সন্তানের সুন্দর স্নেহাশিস কুশলাদী আর আমার কিছু অল্প স্বল্প আবদার! সে হিসেবে আম্মুই হলেন আমার লেখালেখির প্রথম গুরু! ভাল একটা অভ্যেস আমাকে শেখালেন, মা-সন্তানের প্রাকৃতিক ভালবাসায় এ যেন এক অমূল্য উপহার!</p>
+<p>স্কুল শেষে কলেজে পদার্পণ করার আগ মুহুর্তেই জীবনের প্রথম গান লিখে ফেললাম! যেটা ছিলো জীবন নিয়েই লেখা একটি গান! অর্ক ভাইয়ের কাছে প্রথম কিবোর্ড-পিয়ানোতে হাতেখড়ি; অল্প শিখতে না শিখতেই নিজেই বাজিয়ে আর সুর করে একটা গান বানিয়ে ফেললাম। সঙ্গীতের প্রতি ভালবাসাটা অনেকটাই জেনেটিক ব্যাপার ছিলো, এটা কেমন যেন প্রাকৃতিক ভাবেই আমার চলে আসে। বাবার গলায় প্রচুর গান শোনা হয়েছে ছোট বেলা থেকেই। ফিতার ক্যাসেটে রেকর্ড করে চিঠির সাথে প্রেরণ করতেন। এখন তেমন একটা আর গেয়ে পাঠাননা, তবে তাঁর গানের কন্ঠ ছিলো প্রাকৃতিক ভাবে বিশুদ্ধ! আমি সেটার ধারে কাছেও নেই, তবে নিজের জন্য গেয়ে যাই! আমার মুলতো গান বানানোর প্রতি ঝোঁকটা বেশী, একটা গান লেখা থেকে শুরু করে তাতে সুর দেয়া এবং সঙ্গীতায়োজন এসব আমাকে বেশ টানে। বেশ কিছু গান লেখা, সুর করে আপাতত নিজের করেই রেখেছি!</p>
+<p>কিছু লেখা আমার সুর করা হয়ে উঠতো না, পরে দেখলাম সেগুলো কেমন যেন কবিতার রূপ নিয়ে নিচ্ছে। এরপর কলেজে নিয়মিত/অনিয়মিত গান, কবিতা, লেখালেখি করি তবে সেসব খুব একটা পাবলিশ করা হতো না, তখনও ডায়েরীতেই লিখতে স্বাচ্ছন্দ্যবোধ করতাম আর তাতেই সেসব লেখা জমতে থাকে। ফেসবুকে মাঝেমাঝে অল্প কিছু লেখা পোস্ট করতাম আর কিছু লেখা/গান বন্ধুদের দিতাম। শুনিয়ে বাহবা কুড়াতাম, ফিডব্যাক নিতাম। একদম অবসরে এবং মন মর্জি মতো ভাল/ খারাপের সময়ে লিখতে বসতাম, তাই লেখালেখি নিয়ে প্রফেশনালি কিছুই করার আগ্রহ হয়ে উঠেনি।</p>
+<p>উচ্চমাধ্যমিক শেষে বেশ নিয়মিত লিখলেও বিশ্ববিদ্যালয় জীবনের শুরুতে হালকা বিরতি দিলাম। সদ্য বিশ্ববিদ্যালয় পড়ুয়া তরুণ জীবনের শুরুতে বন্ধু বান্ধব নিয়ে হই-হুল্লোর মাস্তি আর টুকটাক কম্পিউটার প্রোগ্রামিংয়ের প্রতি মনযোগ দেওয়ার চেষ্টাতে ব্যস্ত থাকতাম আমি। উচ্চ মাধ্যমিক আইসিটি পড়তে গিয়ে প্রোগ্রামিংয়ের সাথে ভাল করে পরিচয় পর্ব শুরু; কলেজের প্রথম বর্ষে আইসিটি পরীক্ষায় বাজে ফলাফল নিয়ে আসা আমি দ্বিতীয় বর্ষের মাঝামাঝি সময়ে এসে চট্টগ্রাম আগ্রাবাদ এলাকায় ছাত্রছাত্রীদের মাঝে তুমুল ভক্তিতুল্য আসিটি শিক্ষক শ্রদ্ধেয় আবীর ভাইয়ের কাছে এসেই আইসিটিকে পানি বানিয়ে উচ্চ মাধ্যমিকে এ+ নিয়ে ফিরলাম! উচ্চ মাধ্যমিক পরীক্ষায় সেটাই ছিলো একমাত্র বিষয় যেটাতে আমি এ+ পেয়েছি! আমার উচ্চ শিক্ষার প্রথম পছন্দের মধ্য সব সময়ই কম্পিউটার সাইয়েন্স ছিলো কারণটা অবশ্য সফ্টওয়্যার ইন্জিনিয়ার হবো বলে! যদিও বুঝতাম না আসলে এর আসল ব্যাপ্তিটা ঠিক কত বড়! নবম শ্রেণীতে উঠেই প্রথম ডেস্কটপ হাতে পাওয়ার পর ওটা দিয়ে হালকা পাতলা টাইপিং, ওয়ার্ড/অফিস অ্যাপ্লিকেশন শিখতাম, গান শুনতাম আর গেইম খেলতাম! তবে প্রযুক্তি নিয়ে আলাদা একটা আগ্রহ কাজ করতো সব সময়। যখন থেকে প্রথম মডেমটা লাগিয়ে পিসিতে ইন্টারনেট চালিয়ে পৃথিবীটা আরো বেশী এক্সপ্লোর করতে থাকলাম, তখন থেকেই ততো বেশী প্রযুক্তির টপিক গুলো নিয়ে আগ্রহ বাড়তে শুরু করে। এক সময় বুঝলাম ভাল সফ্টওয়্যার ইন্জিনিয়ার হতে হলে প্রোগ্রামিংটা ভাল করে জানতে হবে, ভাল প্রবলেম সল্ভার হতে হবে! তাই বিশ্ববিদ্যালয় জীবন প্রথম থেকেই পারি আর না পারি কন্টেস্টের পর কন্টেস্ট করে গেলাম। পর্যাপ্ত অনুশীলন আর ভাল কৌশলের অভাবে আমি একটু পিছিয়ে ছিলাম বটে তবে পরপর প্রথম তিন সেমিস্টার স্রদ্ধেয় সুকান্ত পাল স্যারের সি দিয়ে স্ট্ররাকচার্ড প্রোগ্রামিং, জাভা দিয়ে অবজেক্ট-ওরিয়েন্টেড প্রোগ্রামিং এবং ডেটা স্টাকচারের ক্লাস গুলো আমাকে প্রোগ্রামিং নিয়ে পড়ে থাকতে বাদ্ধ করেছে! আর অন্য দিকে আমার বিশ্ববিদ্যালয়ের অন্যতম প্রিয় ক্লাব এফআরসি হতে আয়োজিত প্রোগ্রামিং কন্টেস্ট গুলো এবং ক্লাবের তৎকালীন দু'বারের এক্সিকিউটিভ মেম্বার আর প্রাক্তন প্রেসিডেন্ট শ্রদ্ধেয় ইয়াসিন ভাইয়ের কন্টেস্ট নিয়ে সুন্দর উদ্যেগ আর অনুপ্রেরণাটাও আজ অব্দি প্রোগ্রামিং নিয়ে লেগে থাকতে সাহায্য করেছে।</p>
+<p>লেখালেখিটাও আবার অল্প বিস্তর চলছিলো তবে শুধুই নিজ ডায়েরীতে। এবার মাথায় চেপে বসলো ব্যক্তিগত ব্লগ সাইটের যেখানে মুলত আমার দুই ধরণের লেখা থাকবে একটা অংশ জুড়ে টেকনিকাল লেখা থাকবে আরেকটা অংশ সম্পূর্ণ নিজের মনের খোরাক মেটানোর জন্য!</p>
+<p>একজন ভাল প্রযুক্তির অভিজ্ঞ প্রোফেশনালিস্ট হতে আমার এখনো বেশ বড়সড় পথ পাড়ি দিতে হবে। যাই করি না কেন আমার বর্তমান এবং ভবিষ্যতে জুড়ে কম্পিউটারের প্রযুক্তি, বিজ্ঞান, প্রকৌশল নিয়েই সাজাচ্ছি। এখনো শিখছি আর এ শেখাটা অদূরে থামবে না। গুনিরা বলেন, &ldquo;যে জ্ঞান ছড়িয়ে দেয়া হয়না সে জ্ঞান অপচয় ছাড়া আর কিছুই না!&rdquo; অথচো আমার ছাত্র জীবনের ব্যাপ্তিকাল প্রায় মৃত্যু আগ পর্যন্ত। এখন আমি যদি ছাত্র জীবন শেষ করা অপেক্ষায় থাকি আমার শেখা জ্ঞানকে ছড়িয়ে দিতে; তাহলে সেটা বোধহয় আর সম্ভব হবে না।</p>
+<p>তাই, যাই শিখছি সেসব ছড়িয়ে দেয়ার প্রত্যয় নিয়ে ব্লগ সাইটটা পাবলিশ করলাম।</p>
+<p>কন্টেন্ট থাকবে দুই ধরণের; এক হলো কম্পিউটার বিজ্ঞান, সফ্টও্যার প্রকৌশল ইত্যাদি বিষয়ে প্র্যাক্টিক্যাল এবং থিওরিটিক্যাল ব্লগ, আর অন্যটি হলো জীবন, মানুষ, বিজ্ঞান, ইতিহাস, আর আমার নিজের জীবন থেকে সংগৃহীত লেখা, কবিতা।</p>
+<p>কন্টেন্টের ভাষা হবে বাংলা এবং ইংরেজী। চেষ্টা করবো দুই ভাষাতেই লেখার মান ও সংখ্যার ভারসাম্য ঠিক রাখতে।</p>
+<p>ভাল কন্টেন্টের দিকে নজর থাকবে; তবুও পাঠকের স্বাধীনতা যত্ন করে রেখেই ধরে নিচ্ছি কন্টেন্ট ভাল হলে পড়বেন না হয় ছুড়েও দিতে পারবেন, তবে ছুড়ে দেওয়ার আগে ঠিক কারণটা বলে সুধরিয়ে দিলে তার উপর আমি চির কৃতজ্ঞ থাকবো। ইন্টারনেট দুনিয়ায় আমার স্থায়ী ঠিকানায় সবাইকে স্বাগতম!</p>
+<p>Photo <a href="http://www.freepik.com">Designed by valeria_aksakova / Freepik</a></p>
+
+              
+            </div>
+          </div>
+          <div id="post-footer" class="post-footer main-content-wrap">
+            
+              
+                
+                
+                  <div class="post-footer-tags">
+                    <span class="text-color-light text-small">TAGGED IN</span><br/>
+                    
+  <a class="tag tag--primary tag--small" href="https://www.solaimanhridoy.com/tags/%E0%A6%B6%E0%A7%81%E0%A6%B0%E0%A7%81/">শুরু</a>
+
+  <a class="tag tag--primary tag--small" href="https://www.solaimanhridoy.com/tags/%E0%A6%9C%E0%A7%80%E0%A6%AC%E0%A6%A8/">জীবন</a>
+
+  <a class="tag tag--primary tag--small" href="https://www.solaimanhridoy.com/tags/%E0%A6%B6%E0%A6%BF%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A6%BE/">শিক্ষা</a>
+
+                  </div>
+                
+              
+            
+            <div class="post-actions-wrap">
+  
+      <nav >
+        <ul class="post-actions post-action-nav">
+          
+            <li class="post-action">
+              
+                <a class="post-action-btn btn btn--disabled">
+              
+                  <i class="fa fa-angle-left"></i>
+                  <span class="hide-xs hide-sm text-small icon-ml">NEXT</span>
+                </a>
+            </li>
+            <li class="post-action">
+              
+                <a class="post-action-btn btn btn--default tooltip--top" href="https://www.solaimanhridoy.com/2020/08/%E0%A6%9C%E0%A7%80%E0%A6%AC%E0%A6%A8-%E0%A6%9B%E0%A6%BF%E0%A6%B2%E0%A7%8B-%E0%A6%B8%E0%A7%81%E0%A6%A8%E0%A7%8D%E0%A6%A6%E0%A6%B0/" data-tooltip="জীবন ছিলো সুন্দর!">
+              
+                  <span class="hide-xs hide-sm text-small icon-mr">PREVIOUS</span>
+                  <i class="fa fa-angle-right"></i>
+                </a>
+            </li>
+          
+        </ul>
+      </nav>
+    <ul class="post-actions post-action-share" >
+      
+        <li class="post-action hide-lg hide-md hide-sm">
+          <a class="post-action-btn btn btn--default btn-open-shareoptions" href="#btn-open-shareoptions">
+            <i class="fa fa-share-alt"></i>
+          </a>
+        </li>
+        
+          <li class="post-action hide-xs">
+            <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=https://www.solaimanhridoy.com/2020/08/%E0%A6%AC%E0%A7%8D%E0%A6%AF%E0%A6%95%E0%A7%8D%E0%A6%A4%E0%A6%BF%E0%A6%97%E0%A6%A4-%E0%A6%AC%E0%A7%8D%E0%A6%B2%E0%A6%97-%E0%A6%B8%E0%A6%BE%E0%A6%87%E0%A6%9F-%E0%A6%96%E0%A7%8B%E0%A6%B2%E0%A6%BE%E0%A6%B0-%E0%A6%86%E0%A6%A6%E0%A7%8D%E0%A6%AF%E0%A7%8B%E0%A6%AA%E0%A6%BE%E0%A6%A8%E0%A7%8D%E0%A6%A4/">
+              <i class="fa fa-facebook-official"></i>
+            </a>
+          </li>
+        
+          <li class="post-action hide-xs">
+            <a class="post-action-btn btn btn--default" target="new" href="https://www.linkedin.com/%25!%28EXTRA%20string=https://www.solaimanhridoy.com/2020/08/%E0%A6%AC%E0%A7%8D%E0%A6%AF%E0%A6%95%E0%A7%8D%E0%A6%A4%E0%A6%BF%E0%A6%97%E0%A6%A4-%E0%A6%AC%E0%A7%8D%E0%A6%B2%E0%A6%97-%E0%A6%B8%E0%A6%BE%E0%A6%87%E0%A6%9F-%E0%A6%96%E0%A7%8B%E0%A6%B2%E0%A6%BE%E0%A6%B0-%E0%A6%86%E0%A6%A6%E0%A7%8D%E0%A6%AF%E0%A7%8B%E0%A6%AA%E0%A6%BE%E0%A6%A8%E0%A7%8D%E0%A6%A4/%29">
+              <i class="fa fa-linkedin"></i>
+            </a>
+          </li>
+        
+          <li class="post-action hide-xs">
+            <a class="post-action-btn btn btn--default" target="new" href="https://plus.google.com/share?url=https://www.solaimanhridoy.com/2020/08/%E0%A6%AC%E0%A7%8D%E0%A6%AF%E0%A6%95%E0%A7%8D%E0%A6%A4%E0%A6%BF%E0%A6%97%E0%A6%A4-%E0%A6%AC%E0%A7%8D%E0%A6%B2%E0%A6%97-%E0%A6%B8%E0%A6%BE%E0%A6%87%E0%A6%9F-%E0%A6%96%E0%A7%8B%E0%A6%B2%E0%A6%BE%E0%A6%B0-%E0%A6%86%E0%A6%A6%E0%A7%8D%E0%A6%AF%E0%A7%8B%E0%A6%AA%E0%A6%BE%E0%A6%A8%E0%A7%8D%E0%A6%A4/">
+              <i class="fa fa-google-plus"></i>
+            </a>
+          </li>
+        
+      
+      
+        <li class="post-action">
+          <a class="post-action-btn btn btn--default" href="#disqus_thread">
+            <i class="fa fa-comment-o"></i>
+          </a>
+        </li>
+      
+      <li class="post-action">
+        
+          <a class="post-action-btn btn btn--default" href="#">
+        
+          <i class="fa fa-list"></i>
+        </a>
+      </li>
+    </ul>
+  
+</div>
+
+            
+              
+                <div id="disqus_thread"></div>
+<script>
+(function() {
+var d = document, s = d.createElement('script');
+s.src = 'https://lib10.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+              
+            
+          </div>
+        </article>
+        <footer id="footer" class="main-content-wrap">
+  <span class="copyrights">
+    &copy; 2020 Solaiman Hridoy. All Rights Reserved
+  </span>
+</footer>
+
+      </div>
+      <div id="bottom-bar" class="post-bottom-bar" data-behavior="4">
+        <div class="post-actions-wrap">
+  
+      <nav >
+        <ul class="post-actions post-action-nav">
+          
+            <li class="post-action">
+              
+                <a class="post-action-btn btn btn--disabled">
+              
+                  <i class="fa fa-angle-left"></i>
+                  <span class="hide-xs hide-sm text-small icon-ml">NEXT</span>
+                </a>
+            </li>
+            <li class="post-action">
+              
+                <a class="post-action-btn btn btn--default tooltip--top" href="https://www.solaimanhridoy.com/2020/08/%E0%A6%9C%E0%A7%80%E0%A6%AC%E0%A6%A8-%E0%A6%9B%E0%A6%BF%E0%A6%B2%E0%A7%8B-%E0%A6%B8%E0%A7%81%E0%A6%A8%E0%A7%8D%E0%A6%A6%E0%A6%B0/" data-tooltip="জীবন ছিলো সুন্দর!">
+              
+                  <span class="hide-xs hide-sm text-small icon-mr">PREVIOUS</span>
+                  <i class="fa fa-angle-right"></i>
+                </a>
+            </li>
+          
+        </ul>
+      </nav>
+    <ul class="post-actions post-action-share" >
+      
+        <li class="post-action hide-lg hide-md hide-sm">
+          <a class="post-action-btn btn btn--default btn-open-shareoptions" href="#btn-open-shareoptions">
+            <i class="fa fa-share-alt"></i>
+          </a>
+        </li>
+        
+          <li class="post-action hide-xs">
+            <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=https://www.solaimanhridoy.com/2020/08/%E0%A6%AC%E0%A7%8D%E0%A6%AF%E0%A6%95%E0%A7%8D%E0%A6%A4%E0%A6%BF%E0%A6%97%E0%A6%A4-%E0%A6%AC%E0%A7%8D%E0%A6%B2%E0%A6%97-%E0%A6%B8%E0%A6%BE%E0%A6%87%E0%A6%9F-%E0%A6%96%E0%A7%8B%E0%A6%B2%E0%A6%BE%E0%A6%B0-%E0%A6%86%E0%A6%A6%E0%A7%8D%E0%A6%AF%E0%A7%8B%E0%A6%AA%E0%A6%BE%E0%A6%A8%E0%A7%8D%E0%A6%A4/">
+              <i class="fa fa-facebook-official"></i>
+            </a>
+          </li>
+        
+          <li class="post-action hide-xs">
+            <a class="post-action-btn btn btn--default" target="new" href="https://www.linkedin.com/%25!%28EXTRA%20string=https://www.solaimanhridoy.com/2020/08/%E0%A6%AC%E0%A7%8D%E0%A6%AF%E0%A6%95%E0%A7%8D%E0%A6%A4%E0%A6%BF%E0%A6%97%E0%A6%A4-%E0%A6%AC%E0%A7%8D%E0%A6%B2%E0%A6%97-%E0%A6%B8%E0%A6%BE%E0%A6%87%E0%A6%9F-%E0%A6%96%E0%A7%8B%E0%A6%B2%E0%A6%BE%E0%A6%B0-%E0%A6%86%E0%A6%A6%E0%A7%8D%E0%A6%AF%E0%A7%8B%E0%A6%AA%E0%A6%BE%E0%A6%A8%E0%A7%8D%E0%A6%A4/%29">
+              <i class="fa fa-linkedin"></i>
+            </a>
+          </li>
+        
+          <li class="post-action hide-xs">
+            <a class="post-action-btn btn btn--default" target="new" href="https://plus.google.com/share?url=https://www.solaimanhridoy.com/2020/08/%E0%A6%AC%E0%A7%8D%E0%A6%AF%E0%A6%95%E0%A7%8D%E0%A6%A4%E0%A6%BF%E0%A6%97%E0%A6%A4-%E0%A6%AC%E0%A7%8D%E0%A6%B2%E0%A6%97-%E0%A6%B8%E0%A6%BE%E0%A6%87%E0%A6%9F-%E0%A6%96%E0%A7%8B%E0%A6%B2%E0%A6%BE%E0%A6%B0-%E0%A6%86%E0%A6%A6%E0%A7%8D%E0%A6%AF%E0%A7%8B%E0%A6%AA%E0%A6%BE%E0%A6%A8%E0%A7%8D%E0%A6%A4/">
+              <i class="fa fa-google-plus"></i>
+            </a>
+          </li>
+        
+      
+      
+        <li class="post-action">
+          <a class="post-action-btn btn btn--default" href="#disqus_thread">
+            <i class="fa fa-comment-o"></i>
+          </a>
+        </li>
+      
+      <li class="post-action">
+        
+          <a class="post-action-btn btn btn--default" href="#">
+        
+          <i class="fa fa-list"></i>
+        </a>
+      </li>
+    </ul>
+  
+</div>
+
+      </div>
+      <div id="share-options-bar" class="share-options-bar" data-behavior="4">
+  <i id="btn-close-shareoptions" class="fa fa-close"></i>
+  <ul class="share-options">
+    
+      <li class="share-option">
+        <a class="share-option-btn" target="new" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.solaimanhridoy.com%2F2020%2F08%2F%25E0%25A6%25AC%25E0%25A7%258D%25E0%25A6%25AF%25E0%25A6%2595%25E0%25A7%258D%25E0%25A6%25A4%25E0%25A6%25BF%25E0%25A6%2597%25E0%25A6%25A4-%25E0%25A6%25AC%25E0%25A7%258D%25E0%25A6%25B2%25E0%25A6%2597-%25E0%25A6%25B8%25E0%25A6%25BE%25E0%25A6%2587%25E0%25A6%259F-%25E0%25A6%2596%25E0%25A7%258B%25E0%25A6%25B2%25E0%25A6%25BE%25E0%25A6%25B0-%25E0%25A6%2586%25E0%25A6%25A6%25E0%25A7%258D%25E0%25A6%25AF%25E0%25A7%258B%25E0%25A6%25AA%25E0%25A6%25BE%25E0%25A6%25A8%25E0%25A7%258D%25E0%25A6%25A4%2F">
+          <i class="fa fa-facebook-official"></i><span>Share on Facebook</span>
+        </a>
+      </li>
+    
+      <li class="share-option">
+        <a class="share-option-btn" target="new" href="https://www.linkedin.com/%25!%28EXTRA%20string=https%3A%2F%2Fwww.solaimanhridoy.com%2F2020%2F08%2F%25E0%25A6%25AC%25E0%25A7%258D%25E0%25A6%25AF%25E0%25A6%2595%25E0%25A7%258D%25E0%25A6%25A4%25E0%25A6%25BF%25E0%25A6%2597%25E0%25A6%25A4-%25E0%25A6%25AC%25E0%25A7%258D%25E0%25A6%25B2%25E0%25A6%2597-%25E0%25A6%25B8%25E0%25A6%25BE%25E0%25A6%2587%25E0%25A6%259F-%25E0%25A6%2596%25E0%25A7%258B%25E0%25A6%25B2%25E0%25A6%25BE%25E0%25A6%25B0-%25E0%25A6%2586%25E0%25A6%25A6%25E0%25A7%258D%25E0%25A6%25AF%25E0%25A7%258B%25E0%25A6%25AA%25E0%25A6%25BE%25E0%25A6%25A8%25E0%25A7%258D%25E0%25A6%25A4%2F%29">
+          <i class="fa fa-linkedin"></i><span>Share on Linkedin</span>
+        </a>
+      </li>
+    
+      <li class="share-option">
+        <a class="share-option-btn" target="new" href="https://plus.google.com/share?url=https%3A%2F%2Fwww.solaimanhridoy.com%2F2020%2F08%2F%25E0%25A6%25AC%25E0%25A7%258D%25E0%25A6%25AF%25E0%25A6%2595%25E0%25A7%258D%25E0%25A6%25A4%25E0%25A6%25BF%25E0%25A6%2597%25E0%25A6%25A4-%25E0%25A6%25AC%25E0%25A7%258D%25E0%25A6%25B2%25E0%25A6%2597-%25E0%25A6%25B8%25E0%25A6%25BE%25E0%25A6%2587%25E0%25A6%259F-%25E0%25A6%2596%25E0%25A7%258B%25E0%25A6%25B2%25E0%25A6%25BE%25E0%25A6%25B0-%25E0%25A6%2586%25E0%25A6%25A6%25E0%25A7%258D%25E0%25A6%25AF%25E0%25A7%258B%25E0%25A6%25AA%25E0%25A6%25BE%25E0%25A6%25A8%25E0%25A7%258D%25E0%25A6%25A4%2F">
+          <i class="fa fa-google-plus"></i><span>Share on Google&#43;</span>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+<div id="share-options-mask" class="share-options-mask"></div>
+    </div>
+    
+    <div id="about">
+  <div id="about-card">
+    <div id="about-btn-close">
+      <i class="fa fa-remove"></i>
+    </div>
+    
+      <img id="about-card-picture" src="https://res.cloudinary.com/ddlohuyww/image/upload/v1598202275/images/My-Pic02_rii70m.png" alt="Author&#39;s picture" />
+    
+    <h4 id="about-card-name">Solaiman Hridoy</h4>
+    
+      <div id="about-card-bio">Life Is <strong>Gorgeous</strong></div>
+    
+    
+      <div id="about-card-job">
+        <i class="fa fa-briefcase"></i>
+        <br/>
+        Student|Computer Science and Engineering
+      </div>
+    
+    
+  </div>
+</div>
+
+    
+
+    
+  
+    <div id="cover" style="background-image:url('https://res.cloudinary.com/ddlohuyww/image/upload/v1598202274/images/cover_g9xss8.jpg');"></div>
+  
+
+
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.7/js/jquery.fancybox.min.js" integrity="sha256-GEAnjcTqVP+vBp3SSc8bEDQqvWAZMiHyUSIorrWwH50=" crossorigin="anonymous"></script>
+
+
+<script src="https://www.solaimanhridoy.com/js/script-pcw6v3xilnxydl1vddzazdverrnn9ctynvnxgwho987mfyqkuylcb1nlt.min.js"></script>
+
+
+<script lang="javascript">
+window.onload = updateMinWidth;
+window.onresize = updateMinWidth;
+document.getElementById("sidebar").addEventListener("transitionend", updateMinWidth);
+function updateMinWidth() {
+  var sidebar = document.getElementById("sidebar");
+  var main = document.getElementById("main");
+  main.style.minWidth = "";
+  var w1 = getComputedStyle(main).getPropertyValue("min-width");
+  var w2 = getComputedStyle(sidebar).getPropertyValue("width");
+  var w3 = getComputedStyle(sidebar).getPropertyValue("left");
+  main.style.minWidth = `calc(${w1} - ${w2} - ${w3})`;
+}
+</script>
+
+<script>
+$(document).ready(function() {
+  hljs.configure({ classPrefix: '', useBR: false });
+  $('pre.code-highlight > code, pre > code').each(function(i, block) {
+    if (!$(this).hasClass('codeblock')) {
+      $(this).addClass('codeblock');
+    }
+    hljs.highlightBlock(block);
+  });
+});
+</script>
+
+
+  
+    
+      <script>
+        var disqus_config = function () {
+          this.page.url = 'https:\/\/www.solaimanhridoy.com\/2020\/08\/%E0%A6%AC%E0%A7%8D%E0%A6%AF%E0%A6%95%E0%A7%8D%E0%A6%A4%E0%A6%BF%E0%A6%97%E0%A6%A4-%E0%A6%AC%E0%A7%8D%E0%A6%B2%E0%A6%97-%E0%A6%B8%E0%A6%BE%E0%A6%87%E0%A6%9F-%E0%A6%96%E0%A7%8B%E0%A6%B2%E0%A6%BE%E0%A6%B0-%E0%A6%86%E0%A6%A6%E0%A7%8D%E0%A6%AF%E0%A7%8B%E0%A6%AA%E0%A6%BE%E0%A6%A8%E0%A7%8D%E0%A6%A4\/';
+          
+            this.page.identifier = '\/2020\/08\/%E0%A6%AC%E0%A7%8D%E0%A6%AF%E0%A6%95%E0%A7%8D%E0%A6%A4%E0%A6%BF%E0%A6%97%E0%A6%A4-%E0%A6%AC%E0%A7%8D%E0%A6%B2%E0%A6%97-%E0%A6%B8%E0%A6%BE%E0%A6%87%E0%A6%9F-%E0%A6%96%E0%A7%8B%E0%A6%B2%E0%A6%BE%E0%A6%B0-%E0%A6%86%E0%A6%A6%E0%A7%8D%E0%A6%AF%E0%A7%8B%E0%A6%AA%E0%A6%BE%E0%A6%A8%E0%A7%8D%E0%A6%A4\/'
+          
+        };
+        (function() {
+          
+          
+          if (window.location.hostname == "localhost") {
+            return;
+          }
+          var d = document, s = d.createElement('script');
+          var disqus_shortname = 'lib10';
+          s.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+
+          s.setAttribute('data-timestamp', +new Date());
+          (d.head || d.body).appendChild(s);
+        })();
+      </script>
+    
+  
+
+
+
+
+    
+  </body>
+</html>
+

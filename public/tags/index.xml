@@ -1,31 +1,40 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Website of Solaiman Hridoy</title>
-    <link>/tags/</link>
-    <description>Recent content in Tags on Website of Solaiman Hridoy</description>
+    <title>Tags on Solaiman Hridoy&#39;s Blog</title>
+    <link>https://www.solaimanhridoy.com/tags/</link>
+    <description>Recent content in Tags on Solaiman Hridoy&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <lastBuildDate>Sat, 22 Aug 2020 22:26:59 +0600</lastBuildDate>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 23 Aug 2020 22:28:25 +0600</lastBuildDate>
     
-	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.solaimanhridoy.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>জীবন</title>
-      <link>/tags/%E0%A6%9C%E0%A7%80%E0%A6%AC%E0%A6%A8/</link>
-      <pubDate>Sat, 22 Aug 2020 22:26:59 +0600</pubDate>
+      <link>https://www.solaimanhridoy.com/tags/%E0%A6%9C%E0%A7%80%E0%A6%AC%E0%A6%A8/</link>
+      <pubDate>Sun, 23 Aug 2020 22:28:25 +0600</pubDate>
       
-      <guid>/tags/%E0%A6%9C%E0%A7%80%E0%A6%AC%E0%A6%A8/</guid>
+      <guid>https://www.solaimanhridoy.com/tags/%E0%A6%9C%E0%A7%80%E0%A6%AC%E0%A6%A8/</guid>
       <description></description>
     </item>
     
     <item>
       <title>শিক্ষা</title>
-      <link>/tags/%E0%A6%B6%E0%A6%BF%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A6%BE/</link>
-      <pubDate>Sat, 22 Aug 2020 22:26:59 +0600</pubDate>
+      <link>https://www.solaimanhridoy.com/tags/%E0%A6%B6%E0%A6%BF%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A6%BE/</link>
+      <pubDate>Sun, 23 Aug 2020 22:28:25 +0600</pubDate>
       
-      <guid>/tags/%E0%A6%B6%E0%A6%BF%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A6%BE/</guid>
+      <guid>https://www.solaimanhridoy.com/tags/%E0%A6%B6%E0%A6%BF%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A6%BE/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>শুরু</title>
+      <link>https://www.solaimanhridoy.com/tags/%E0%A6%B6%E0%A7%81%E0%A6%B0%E0%A7%81/</link>
+      <pubDate>Sun, 23 Aug 2020 22:28:25 +0600</pubDate>
+      
+      <guid>https://www.solaimanhridoy.com/tags/%E0%A6%B6%E0%A7%81%E0%A6%B0%E0%A7%81/</guid>
       <description></description>
     </item>
     

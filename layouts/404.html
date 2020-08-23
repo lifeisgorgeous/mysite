@@ -1,8 +1,9 @@
-{{ define "main" }}
-<div class="page_404">
-    <h1>404</h1>
-    <h2>{{ i18n "page_not_found" }}</h2>
-    <p>{{ i18n "page_does_not_exist" }}</p>
-    <p>{{ i18n "head_back" .Site.BaseURL | safeHTML }}</p>
-</div>
-{{ end }}
+{{ partial "head.html" . }}
+<main class="posts">
+  <article class="post">
+    <h1>404 Not Found</h1>
+    <p>Sorry, but we couldn't find the page you're looking for.</p>
+    <p>Please head back <a href="/">home</a>.</p>
+  </article>
+</main>
+{{ partial "foot.html" . }}

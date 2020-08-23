@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on Website of Solaiman Hridoy</title>
-    <link>/categories/</link>
-    <description>Recent content in Categories on Website of Solaiman Hridoy</description>
+    <title>Categories on Solaiman Hridoy&#39;s Blog</title>
+    <link>https://www.solaimanhridoy.com/categories/</link>
+    <description>Recent content in Categories on Solaiman Hridoy&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <lastBuildDate>Sat, 22 Aug 2020 22:26:59 +0600</lastBuildDate>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 23 Aug 2020 22:28:25 +0600</lastBuildDate>
     
-	<atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.solaimanhridoy.com/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>বাংলা ব্লগ</title>
-      <link>/categories/%E0%A6%AC%E0%A6%BE%E0%A6%82%E0%A6%B2%E0%A6%BE-%E0%A6%AC%E0%A7%8D%E0%A6%B2%E0%A6%97/</link>
-      <pubDate>Sat, 22 Aug 2020 22:26:59 +0600</pubDate>
+      <link>https://www.solaimanhridoy.com/categories/%E0%A6%AC%E0%A6%BE%E0%A6%82%E0%A6%B2%E0%A6%BE-%E0%A6%AC%E0%A7%8D%E0%A6%B2%E0%A6%97/</link>
+      <pubDate>Sun, 23 Aug 2020 22:28:25 +0600</pubDate>
       
-      <guid>/categories/%E0%A6%AC%E0%A6%BE%E0%A6%82%E0%A6%B2%E0%A6%BE-%E0%A6%AC%E0%A7%8D%E0%A6%B2%E0%A6%97/</guid>
+      <guid>https://www.solaimanhridoy.com/categories/%E0%A6%AC%E0%A6%BE%E0%A6%82%E0%A6%B2%E0%A6%BE-%E0%A6%AC%E0%A7%8D%E0%A6%B2%E0%A6%97/</guid>
       <description></description>
     </item>
     

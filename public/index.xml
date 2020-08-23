@@ -1,40 +1,61 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Website of Solaiman Hridoy</title>
-    <link>/</link>
-    <description>Recent content on Website of Solaiman Hridoy</description>
+    <title>Solaiman Hridoy&#39;s Blog</title>
+    <link>https://www.solaimanhridoy.com/</link>
+    <description>Recent content on Solaiman Hridoy&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <lastBuildDate>Sat, 22 Aug 2020 22:26:59 +0600</lastBuildDate>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 23 Aug 2020 22:28:25 +0600</lastBuildDate>
     
-	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.solaimanhridoy.com/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>জীবন ছিলো সুন্দর!</title>
-      <link>/bn/life_was_beautiful/</link>
-      <pubDate>Sat, 22 Aug 2020 22:26:59 +0600</pubDate>
+      <title>ব্যক্তিগত  ব্লগ  সাইট  খোলার  আদ্যোপান্ত</title>
+      <link>https://www.solaimanhridoy.com/2020/08/%E0%A6%AC%E0%A7%8D%E0%A6%AF%E0%A6%95%E0%A7%8D%E0%A6%A4%E0%A6%BF%E0%A6%97%E0%A6%A4-%E0%A6%AC%E0%A7%8D%E0%A6%B2%E0%A6%97-%E0%A6%B8%E0%A6%BE%E0%A6%87%E0%A6%9F-%E0%A6%96%E0%A7%8B%E0%A6%B2%E0%A6%BE%E0%A6%B0-%E0%A6%86%E0%A6%A6%E0%A7%8D%E0%A6%AF%E0%A7%8B%E0%A6%AA%E0%A6%BE%E0%A6%A8%E0%A7%8D%E0%A6%A4/</link>
+      <pubDate>Sun, 23 Aug 2020 22:28:25 +0600</pubDate>
       
-      <guid>/bn/life_was_beautiful/</guid>
-      <description>হ্যাঁ জীবন ছিলো সুন্দর! যখন ছায়পাশ সাদা রঙের মেঘের সাথে গাঢ় নীলে মোড়ানো আকাশটাতে প্রথমবারের মতো নাটাই ছেড়ে ঘুড়িটা আকাশে পাঠিয়েছিলাম, যখন একটা কাটির মধ্যে এক টাকার সুতো মুড়িয়ে গর্তের কেঁচোটাকে তুলে মাছকে বোকা বানাতে প্রথম বারের মতো চেষ্টা চালালাম!</description>
+      <guid>https://www.solaimanhridoy.com/2020/08/%E0%A6%AC%E0%A7%8D%E0%A6%AF%E0%A6%95%E0%A7%8D%E0%A6%A4%E0%A6%BF%E0%A6%97%E0%A6%A4-%E0%A6%AC%E0%A7%8D%E0%A6%B2%E0%A6%97-%E0%A6%B8%E0%A6%BE%E0%A6%87%E0%A6%9F-%E0%A6%96%E0%A7%8B%E0%A6%B2%E0%A6%BE%E0%A6%B0-%E0%A6%86%E0%A6%A6%E0%A7%8D%E0%A6%AF%E0%A7%8B%E0%A6%AA%E0%A6%BE%E0%A6%A8%E0%A7%8D%E0%A6%A4/</guid>
+      <description>গত প্রায় তিন বছর ধরে চেষ্টা করে যাচ্ছিলাম ইন্টারনেট দুনিয়ায় নিজের একটা স্থায়ী ঠিকানা গড়ে তোলার। লেখার হাতটা এখনো ভাল করে না পাকলেও, ব্লগ কন্টেন্টের প্রতিই আমার ঝোঁক বেশি ছিলো! অবসর সময়ে আমি যেমন প্রচুর ব্লগ ও আর্টিকেল পড়তে পছন্দ করি তেমনি লেখালেখি করতেও সমানভাবেই ভালবাসি।
+বিশ্ববিদ্যালয় জীবনের প্রথম বর্ষ থেকেই মাথায় এমন একটা ব্লগ সাইটের আইডিয়া ওতপেতে ছিলো, যেখানে আমি টেকনিকাল কন্টেন্ট সহ নিজের ব্যক্তিগত চিন্তাধারা বাংলা ও ইংরেজী দুই ভাষার হরফেই সমানভাবে যেন বৈঠা বেয়ে যেতে পারি!</description>
     </item>
     
     <item>
-      <title>About Me</title>
-      <link>/about/</link>
+      <title>জীবন ছিলো সুন্দর!</title>
+      <link>https://www.solaimanhridoy.com/bn/life_was_beautiful/</link>
+      <pubDate>Sat, 22 Aug 2020 22:26:59 +0600</pubDate>
+      
+      <guid>https://www.solaimanhridoy.com/bn/life_was_beautiful/</guid>
+      <description>হ্যাঁ জীবন ছিলো সুন্দর! যখন ছায়পাশ সাদা রঙের মেঘের সাথে গাঢ় নীলে মোড়ানো আকাশটাতে প্রথমবারের মতো নাটাই ছেড়ে ঘুড়িটা আকাশে পাঠিয়েছিলাম, যখন একটা কাটির মধ্যে এক টাকার সুতো মুড়িয়ে গর্তের কেঁচোটাকে তুলে মাছকে বোকা বানাতে প্রথম বারের মতো চেষ্টা চালালাম! বলছি আমার বাল্যকালের কথা, প্রথমবার স্কুল ব্যাগটা কাঁধে চাপিয়ে যখন বের হই আম্মুর আঙ্গুলের মুটি ধরে তখনকার কথা! তখন থেকে ভাসিটির তৃতীয় বর্ষের শেষ অব্দি আমার জীবন ছিলো সুন্দর। এর মাঝে আবার এই অধ্যায়ের বেশ কিছু সাবসেকশনও রয়েছে, অল্প অল্প করে লেখা চলতে থাকবে!</description>
+    </item>
+    
+    <item>
+      <title>জীবন ছিলো সুন্দর!</title>
+      <link>https://www.solaimanhridoy.com/2020/08/%E0%A6%9C%E0%A7%80%E0%A6%AC%E0%A6%A8-%E0%A6%9B%E0%A6%BF%E0%A6%B2%E0%A7%8B-%E0%A6%B8%E0%A7%81%E0%A6%A8%E0%A7%8D%E0%A6%A6%E0%A6%B0/</link>
+      <pubDate>Sat, 22 Aug 2020 22:26:59 +0600</pubDate>
+      
+      <guid>https://www.solaimanhridoy.com/2020/08/%E0%A6%9C%E0%A7%80%E0%A6%AC%E0%A6%A8-%E0%A6%9B%E0%A6%BF%E0%A6%B2%E0%A7%8B-%E0%A6%B8%E0%A7%81%E0%A6%A8%E0%A7%8D%E0%A6%A6%E0%A6%B0/</guid>
+      <description>হ্যাঁ জীবন ছিলো সুন্দর! যখন ছায়পাশ সাদা রঙের মেঘের সাথে গাঢ় নীলে মোড়ানো আকাশটাতে প্রথমবারের মতো নাটাই ছেড়ে ঘুড়িটা আকাশে পাঠিয়েছিলাম, যখন একটা কাটির মধ্যে এক টাকার সুতো মুড়িয়ে গর্তের কেঁচোটাকে তুলে মাছকে বোকা বানাতে প্রথম বারের মতো চেষ্টা চালালাম! বলছি আমার বাল্যকালের কথা, প্রথমবার স্কুল ব্যাগটা কাঁধে চাপিয়ে যখন বের হই আম্মুর আঙ্গুলের মুটি ধরে তখনকার কথা! তখন থেকে ভাসিটির তৃতীয় বর্ষের শেষ অব্দি আমার জীবন ছিলো সুন্দর। এর মাঝে আবার এই অধ্যায়ের বেশ কিছু সাবসেকশনও রয়েছে, অল্প অল্প করে লেখা চলতে থাকবে!</description>
+    </item>
+    
+    <item>
+      <title>About Solaiman Hridoy</title>
+      <link>https://www.solaimanhridoy.com/about/</link>
       <pubDate>Sat, 22 Aug 2020 21:04:42 +0600</pubDate>
       
-      <guid>/about/</guid>
-      <description>Hi there! This is Solaiman Hridoy, a final year Computer Science and Engineering student currently enrolled at USTC with an interest in Programming, Problem Solving, Software Developing, and Data Science.</description>
+      <guid>https://www.solaimanhridoy.com/about/</guid>
+      <description>Hi there! This is Solaiman Hridoy, a final year Computer Science and Engineering student with an interest in Programming, Problem Solving, Software Developing, and Data Science.
+I am a self-motivated young man from a small town called Chittagong, the Port City of Bangladesh who is passionately trying to be a better version of himself every day.
+Being a student of Computer Science and Engineering, I always try to give focus on developing skills related to my degree.</description>
     </item>
     
     <item>
       <title>My First Post</title>
-      <link>/post/my-first-post/</link>
+      <link>https://www.solaimanhridoy.com/2020/08/my-first-post/</link>
       <pubDate>Mon, 17 Aug 2020 15:31:48 +0600</pubDate>
       
-      <guid>/post/my-first-post/</guid>
+      <guid>https://www.solaimanhridoy.com/2020/08/my-first-post/</guid>
       <description>I can&amp;rsquo;t explain with just in one blog how much fun it was to begin my personal website!</description>
     </item>
     
