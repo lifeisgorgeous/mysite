@@ -7,4 +7,4 @@ Categories: []
 DisableComments: false
 ---
 
-I can't explain with just in one blog how much fun it was to begin my personal website! 
+I can't explain with just in one blog how much fun it was to begin my personal website! I will try to share those stories in my upcoming blogs.
