@@ -1,0 +1,869 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="generator" content="Hugo 0.74.3 with theme Tranquilpeak 0.4.8-BETA">
+<meta name="author" content="Solaiman Hridoy">
+<meta name="keywords" content="tech, Array, List, Tuple, Python">
+<meta name="description" content="Array Vs List Vs Tupple">
+
+
+<meta property="og:description" content="Array Vs List Vs Tupple">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Data Structures Using Python: Array Based-Sequences [Part -1]">
+<meta name="twitter:title" content="Data Structures Using Python: Array Based-Sequences [Part -1]">
+<meta property="og:url" content="https://www.solaimanhridoy.com/2020/08/data-structures-using-python-array-based-sequences-part-1/">
+<meta property="twitter:url" content="https://www.solaimanhridoy.com/2020/08/data-structures-using-python-array-based-sequences-part-1/">
+<meta property="og:site_name" content="Solaiman&#39;s Blog">
+<meta property="og:description" content="Array Vs List Vs Tupple">
+<meta name="twitter:description" content="Array Vs List Vs Tupple">
+<meta property="og:locale" content="en-us">
+
+  
+    <meta property="article:published_time" content="2020-08-24T23:22:47">
+  
+  
+    <meta property="article:modified_time" content="2020-08-24T23:22:47">
+  
+  
+  
+    
+      <meta property="article:section" content="Data Structure">
+    
+  
+  
+    
+      <meta property="article:tag" content="Python">
+    
+      <meta property="article:tag" content="Programming">
+    
+  
+
+
+<meta name="twitter:card" content="summary">
+
+
+
+
+
+
+
+  <meta property="og:image" content="https://res.cloudinary.com/ddlohuyww/image/upload/v1598290385/images/18705_iimcyw.png">
+  <meta property="twitter:image" content="https://res.cloudinary.com/ddlohuyww/image/upload/v1598290385/images/18705_iimcyw.png">
+
+
+  <meta property="og:image" content="https://res.cloudinary.com/ddlohuyww/image/upload/v1598290385/images/18705_iimcyw.png">
+  <meta property="twitter:image" content="https://res.cloudinary.com/ddlohuyww/image/upload/v1598290385/images/18705_iimcyw.png">
+
+
+
+
+  <meta property="og:image" content="https://res.cloudinary.com/ddlohuyww/image/upload/v1598202275/images/My-Pic02_rii70m.png">
+  <meta property="twitter:image" content="https://res.cloudinary.com/ddlohuyww/image/upload/v1598202275/images/My-Pic02_rii70m.png">
+
+
+    <title>Data Structures Using Python: Array Based-Sequences [Part -1]</title>
+
+    <link rel="icon" href="https://www.solaimanhridoy.com/favicon.png">
+    
+
+    
+
+    <link rel="canonical" href="https://www.solaimanhridoy.com/2020/08/data-structures-using-python-array-based-sequences-part-1/">
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.4/jquery.fancybox.min.css" integrity="sha256-vuXZ9LGmmwtjqFX1F+EKin1ThZMub58gKULUyf0qECk=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.4/helpers/jquery.fancybox-thumbs.min.css" integrity="sha256-SEa4XYAHihTcEP1f5gARTB2K26Uk8PsndQYHQC1f4jU=" crossorigin="anonymous" />
+    
+    
+    <link rel="stylesheet" href="https://www.solaimanhridoy.com/css/style-twzjdbqhmnnacqs0pwwdzcdbt8yhv8giawvjqjmyfoqnvazl0dalmnhdkvp7.min.css" />
+    
+    
+
+    
+      
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-173154725-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+
+    
+    
+  </head>
+
+  <body>
+    <div id="blog">
+      <header id="header" data-behavior="4">
+  <i id="btn-open-sidebar" class="fa fa-lg fa-bars"></i>
+  <div class="header-title">
+    <a class="header-title-link" href="https://www.solaimanhridoy.com/">Solaiman&#39;s Blog</a>
+  </div>
+  
+    
+      <a class="header-right-picture "
+         href="https://www.solaimanhridoy.com/#about">
+    
+    
+    
+      
+        <img class="header-picture" src="https://res.cloudinary.com/ddlohuyww/image/upload/v1598202275/images/My-Pic02_rii70m.png" alt="Author&#39;s picture" />
+      
+    
+    </a>
+  
+</header>
+
+      <nav id="sidebar" data-behavior="4">
+  <div class="sidebar-container">
+    
+      <div class="sidebar-profile">
+        <a href="https://www.solaimanhridoy.com/#about">
+          <img class="sidebar-profile-picture" src="https://res.cloudinary.com/ddlohuyww/image/upload/v1598202275/images/My-Pic02_rii70m.png" alt="Author&#39;s picture" />
+        </a>
+        <h4 class="sidebar-profile-name">Solaiman Hridoy</h4>
+        
+          <h5 class="sidebar-profile-bio">Life Is <strong>Gorgeous</strong></h5>
+        
+      </div>
+    
+    <ul class="sidebar-buttons">
+      
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://www.solaimanhridoy.com/">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-home"></i>
+      
+      <span class="sidebar-button-desc">Home</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://www.solaimanhridoy.com/categories">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-bookmark"></i>
+      
+      <span class="sidebar-button-desc">Categories</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://www.solaimanhridoy.com/tags">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-tags"></i>
+      
+      <span class="sidebar-button-desc">Tags</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://www.solaimanhridoy.com/archives">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-archive"></i>
+      
+      <span class="sidebar-button-desc">Archives</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://www.solaimanhridoy.com/#about">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-question"></i>
+      
+      <span class="sidebar-button-desc">About</span>
+    </a>
+  </li>
+
+
+    </ul>
+    <ul class="sidebar-buttons">
+      
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://github.com/solaimanhridoy/" target="_blank" rel="noopener">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-github"></i>
+      
+      <span class="sidebar-button-desc">GitHub</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://www.linkedin.com/in/solaimanhridoy" target="_blank" rel="noopener">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-linkedin"></i>
+      
+      <span class="sidebar-button-desc">Linkedin</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://www.facebook.com/solaimanhrid0y" target="_blank" rel="noopener">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-facebook"></i>
+      
+      <span class="sidebar-button-desc">Facebook</span>
+    </a>
+  </li>
+
+
+    </ul>
+    <ul class="sidebar-buttons">
+      
+
+    </ul>
+  </div>
+</nav>
+
+      
+  <div class="post-header-cover
+              text-center
+              "
+       style="background-image:url('https://res.cloudinary.com/ddlohuyww/image/upload/v1598290385/images/18705_iimcyw.png')"
+       data-behavior="4">
+    
+      <div class="post-header main-content-wrap text-center">
+  
+    <h1 class="post-title" itemprop="headline">
+      Data Structures Using Python: Array Based-Sequences [Part -1]
+    </h1>
+  
+  
+  <div class="postShorten-meta post-meta">
+    
+      <time itemprop="datePublished" datetime="2020-08-24T23:22:47&#43;06:00">
+        
+  August 24, 2020
+
+      </time>
+    
+    
+  
+  
+    <span>in</span>
+    
+      <a class="category-link" href="https://www.solaimanhridoy.com/categories/data-structure">Data Structure</a>
+    
+  
+
+  </div>
+
+</div>
+    
+  </div>
+
+
+      <div id="main" data-behavior="4"
+        class="hasCover
+               hasCoverMetaIn
+               hasCoverCaption">
+        <article class="post" itemscope itemType="http://schema.org/BlogPosting">
+          
+            <span class="post-header-cover-caption caption">Photo by pressfoto</span>
+          
+          
+          <div class="post-content markdown" itemprop="articleBody">
+            <div class="main-content-wrap">
+              <h3 id="array-vs-list-vs-tupple">Array V/s List V/s Tupple</h3>
+<p>I started to explore the uses of the data structures more in-depth in Python. Suddenly, a question stuck in my mind that can we use a list in replace of an array in Python. Then I started a little research from books and over the Internet and tried to tie up what I learn in this blog.</p>
+<p><strong>Note</strong>: In Python, we write programs from an abstraction level, that’s why it’s also called high-level programming language that means Python is more human-readable code than machine-readable. To understand the core concept of an Array-based sequence more in-depth, in Part 2 of this blog we will discuss the concept of the low-level array and dynamic array class in Python. I will try to write more relevant details of those concepts in the next part very soon! This blog may not be helpful for very beginners in programming. For whom it may concern, who knows Python or any other programming language or the basics of programming let’s deep dive into the similarities and differences between Array, List, and Tuple using Python!</p>
+<h3 id="revision-what-is-an-array">Revision: What is an Array?</h3>
+<p>An array is a data structure and a collection of elements of the same type. The elements are referenced by their index. For N elements index is started from 0 to N - 1.</p>
+<p>We can do append, remove, and modify operations on an Array.</p>
+<p>In Python, arrays are ordered, mutable, and can be stored as non-unique items.</p>
+<p>There are two ways to use an Array in Python:</p>
+<p>i) Importing by Array module:</p>
+
+  
+    
+  
+  
+    
+  
+  
+  
+
+
+<figure class="highlight python language-python">
+  <figcaption>
+    
+      <span>arrayExample.py</span>
+    
+  </figcaption>
+  <table>
+    <tbody>
+      <tr>
+        <td class="gutter">
+          <pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre>
+        </td>
+        <td class="code">
+          <pre class="code-highlight language-python"><code class="python">import array as arr
+
+TopTen = arr.array(&#34;i&#34;,[10,20,30,40,50,60,70,80,90,100])
+
+print(TopTen) </code></pre>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</figure>
+<pre><code>Output: array('i', [10, 20, 30, 40, 50, 60, 70, 80, 90, 100])
+</code></pre><p>We imported the array module and named it arr. After that, we have created a variable called TopTen where we created an array of ten elements, and &ldquo;i&rdquo; represents that they are integers.</p>
+<p>To see the type of the <code>TopTen</code> type:</p>
+
+  
+    
+  
+  
+  
+  
+
+
+<figure class="highlight  language-">
+  <figcaption>
+    
+      <span>arrayExample.py</span>
+    
+  </figcaption>
+  <table>
+    <tbody>
+      <tr>
+        <td class="gutter">
+          <pre><span class="line">1</span><br></pre>
+        </td>
+        <td class="code">
+          <pre class="code-highlight language-"><code class="">print(type(TopTen))</code></pre>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</figure>
+<pre><code>Output : &lt;class 'array.array'&gt;
+</code></pre><p>ii) Importing by NumPy Packages:</p>
+
+  
+    
+  
+  
+  
+  
+
+
+<figure class="highlight  language-">
+  <figcaption>
+    
+      <span>numpyExample.py</span>
+    
+  </figcaption>
+  <table>
+    <tbody>
+      <tr>
+        <td class="gutter">
+          <pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre>
+        </td>
+        <td class="code">
+          <pre class="code-highlight language-"><code class="">import numpy as np
+
+TopTenNP = np.array([10,&#39;Twenty&#39;,30,&#39;Forty&#39;,50,60,&#39;Seventy&#39;,80,&#39;Ninty&#39;,100])
+
+print(TopTenNP)</code></pre>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</figure>
+<pre><code>Output: ['10' 'Twenty' '30' 'Forty' '50' '60' 'Seventy' '80' 'Ninty' '100']
+</code></pre><p>In the code snippets we can see that, we imported the NumPy package and named it np. Then we took a variable named ToptenNP and assigned some elements in different data types. Yes! NumPy array supports different data types where the array module doesn&rsquo;t support this kind of mixing. After calling the print function we found the output where we can the elements are in integers and strings.
+To see the type of the <code>TopTenNP</code> type:</p>
+
+  
+    
+  
+  
+  
+  
+
+
+<figure class="highlight  language-">
+  <figcaption>
+    
+      <span>numpyExample.py</span>
+    
+  </figcaption>
+  <table>
+    <tbody>
+      <tr>
+        <td class="gutter">
+          <pre><span class="line">1</span><br></pre>
+        </td>
+        <td class="code">
+          <pre class="code-highlight language-"><code class="">print(type(TopTenNP))</code></pre>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</figure>
+<pre><code>Output: &lt;class 'numpy.ndarray'&gt;
+</code></pre><h3 id="revision-what-is-a-list">Revision: What is a List?</h3>
+<p><strong>A list</strong> is a built-in data structure in Python that can store a sequence of objects. Like Array, for <em>N</em> length of <strong>List</strong> has elements indexed from 0 to <em>N</em>-1.</p>
+<p>A list is also ordered, mutable but doesn&rsquo;t need to be unique in Python. We can combine strings, integers, and objects, etc. different data types in the same list and it can have values appended, removed, or changed.</p>
+
+  
+    
+  
+  
+  
+  
+
+
+<figure class="highlight  language-">
+  <figcaption>
+    
+      <span>listExample.py</span>
+    
+  </figcaption>
+  <table>
+    <tbody>
+      <tr>
+        <td class="gutter">
+          <pre><span class="line">1</span><br><span class="line">2</span><br></pre>
+        </td>
+        <td class="code">
+          <pre class="code-highlight language-"><code class="">TopTenList = [10, &#39;Twenty&#39;, 30, 40, 50, 60,&#39;Seventy&#39;,80,&#39;Ninty&#39;,100]
+print(TopTenList)</code></pre>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</figure>
+<pre><code>Output: [10, 'Twenty', 30, 40, 50, 60, 'Seventy', 80, 'Ninty', 100]
+</code></pre><p>Here we don&rsquo;t need to import any module or packages to use a List in Python cause List is a built-in data structure in Python. We took a variable named ToptenList and assigned some elements in different data types. The list supports different data types like NumPy Array. In the output we can the elements are showing in integers and strings as to how Python interpreter does this always for use!</p>
+<p>To see the type of the <code>TopTenList</code> :</p>
+
+  
+    
+  
+  
+  
+  
+
+
+<figure class="highlight  language-">
+  <figcaption>
+    
+      <span>listExample.py</span>
+    
+  </figcaption>
+  <table>
+    <tbody>
+      <tr>
+        <td class="gutter">
+          <pre><span class="line">1</span><br></pre>
+        </td>
+        <td class="code">
+          <pre class="code-highlight language-"><code class="">print(type(TopTenList))</code></pre>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</figure>
+<pre><code>output: &lt;class 'list'&gt;
+</code></pre><h3 id="revision-what-is-a-tuple">Revision: What is a Tuple?</h3>
+<p>A tuple is almost as like as the list data type, except in two ways. First, tuples are typed with parentheses, ( values ), instead of square brackets, [ values ], another is that the Tuples cannot have their values modified, appended, or removed. We can convert the tuple into a list, change the list, and convert the list back into a tuple and that is the one way to modify a tuple.</p>
+
+  
+    
+  
+  
+  
+  
+
+
+<figure class="highlight  language-">
+  <figcaption>
+    
+      <span>tupleExample.py</span>
+    
+  </figcaption>
+  <table>
+    <tbody>
+      <tr>
+        <td class="gutter">
+          <pre><span class="line">1</span><br><span class="line">2</span><br></pre>
+        </td>
+        <td class="code">
+          <pre class="code-highlight language-"><code class="">TopTenTuple = (&#39;10&#39;,&#39;20&#39;,&#39;Thirty&#39;,40, 50, 60, &#39;Seventy&#39;, 80, &#39;Ninty&#39;, 100)
+print(TopTenTuple)</code></pre>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</figure>
+<pre><code>('10', '20', 'Thirty', 40, 50, 60, 'Seventy', 80, 'Ninty', 100)
+</code></pre><p>As like List, here we don&rsquo;t need to import any module or packages to use a Tuple in Python cause Tuple is also a built-in data structure in Python. We took a variable named ToptenTuple and assigned some elements in different data types.</p>
+<p>To see the type of the <code>TopTenTuple</code> :</p>
+
+  
+    
+  
+  
+  
+  
+
+
+<figure class="highlight  language-">
+  <figcaption>
+    
+      <span>tupleExample.py</span>
+    
+  </figcaption>
+  <table>
+    <tbody>
+      <tr>
+        <td class="gutter">
+          <pre><span class="line">1</span><br></pre>
+        </td>
+        <td class="code">
+          <pre class="code-highlight language-"><code class="">print(type(TopTenTuple))</code></pre>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</figure>
+<pre><code>output: &lt;class 'tuple'&gt;
+</code></pre><h3 id="so-when-and-where-we-will-use-among-these-three-types">So when and where we will use among these three types?</h3>
+<p>We know It&rsquo;s very important to use the right data structure to write a good program. So now we will have a look at some useful uses of Array, List, Tuple.</p>
+<p>Among these types, <strong>Arrays</strong> are great for numerical, arithmetic operations and can store data very compactly and are more efficient storing <strong>large</strong> amounts of <strong>data</strong>. On the other hand operations on <strong>tuples</strong> can be executed <strong>faster</strong> compared to operations on <strong>lists</strong>. But when we need to modify the values it&rsquo;s quite efficient to use List and Array as they are mutable than using a tuple. To use different data types List can be most useful among these three although Tuple can contain elements from different data types for the immutable issue it&rsquo;s better to use List than Tuple.</p>
+<p>In the next part of this topic, we will see more discussion about Array-based sequences in Python their operations in more detail. Till then have a good night to you all!</p>
+<p>Photo <a href="http://www.freepik.com">Designed by pressfoto</a></p>
+              
+            </div>
+          </div>
+          <div id="post-footer" class="post-footer main-content-wrap">
+            
+              
+                
+                
+                  <div class="post-footer-tags">
+                    <span class="text-color-light text-small">TAGGED IN</span><br/>
+                    
+  <a class="tag tag--primary tag--small" href="https://www.solaimanhridoy.com/tags/python/">Python</a>
+
+  <a class="tag tag--primary tag--small" href="https://www.solaimanhridoy.com/tags/programming/">Programming</a>
+
+                  </div>
+                
+              
+            
+            <div class="post-actions-wrap">
+  
+      <nav >
+        <ul class="post-actions post-action-nav">
+          
+            <li class="post-action">
+              
+                <a class="post-action-btn btn btn--disabled">
+              
+                  <i class="fa fa-angle-left"></i>
+                  <span class="hide-xs hide-sm text-small icon-ml">NEXT</span>
+                </a>
+            </li>
+            <li class="post-action">
+              
+                <a class="post-action-btn btn btn--default tooltip--top" href="https://www.solaimanhridoy.com/2020/08/%E0%A6%AC%E0%A7%8D%E0%A6%AF%E0%A6%95%E0%A7%8D%E0%A6%A4%E0%A6%BF%E0%A6%97%E0%A6%A4-%E0%A6%AC%E0%A7%8D%E0%A6%B2%E0%A6%97-%E0%A6%B8%E0%A6%BE%E0%A6%87%E0%A6%9F-%E0%A6%96%E0%A7%8B%E0%A6%B2%E0%A6%BE%E0%A6%B0-%E0%A6%86%E0%A6%A6%E0%A7%8D%E0%A6%AF%E0%A7%8B%E0%A6%AA%E0%A6%BE%E0%A6%A8%E0%A7%8D%E0%A6%A4/" data-tooltip="ব্যক্তিগত  ব্লগ  সাইট  খোলার  আদ্যোপান্ত">
+              
+                  <span class="hide-xs hide-sm text-small icon-mr">PREVIOUS</span>
+                  <i class="fa fa-angle-right"></i>
+                </a>
+            </li>
+          
+        </ul>
+      </nav>
+    <ul class="post-actions post-action-share" >
+      
+        <li class="post-action hide-lg hide-md hide-sm">
+          <a class="post-action-btn btn btn--default btn-open-shareoptions" href="#btn-open-shareoptions">
+            <i class="fa fa-share-alt"></i>
+          </a>
+        </li>
+        
+          <li class="post-action hide-xs">
+            <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=https://www.solaimanhridoy.com/2020/08/data-structures-using-python-array-based-sequences-part-1/">
+              <i class="fa fa-facebook-official"></i>
+            </a>
+          </li>
+        
+          <li class="post-action hide-xs">
+            <a class="post-action-btn btn btn--default" target="new" href="https://www.linkedin.com/%25!%28EXTRA%20string=https://www.solaimanhridoy.com/2020/08/data-structures-using-python-array-based-sequences-part-1/%29">
+              <i class="fa fa-linkedin"></i>
+            </a>
+          </li>
+        
+          <li class="post-action hide-xs">
+            <a class="post-action-btn btn btn--default" target="new" href="https://plus.google.com/share?url=https://www.solaimanhridoy.com/2020/08/data-structures-using-python-array-based-sequences-part-1/">
+              <i class="fa fa-google-plus"></i>
+            </a>
+          </li>
+        
+      
+      
+        <li class="post-action">
+          <a class="post-action-btn btn btn--default" href="#disqus_thread">
+            <i class="fa fa-comment-o"></i>
+          </a>
+        </li>
+      
+      <li class="post-action">
+        
+          <a class="post-action-btn btn btn--default" href="#">
+        
+          <i class="fa fa-list"></i>
+        </a>
+      </li>
+    </ul>
+  
+</div>
+
+            
+              
+                <div id="disqus_thread"></div>
+<script>
+(function() {
+var d = document, s = d.createElement('script');
+s.src = 'https://lib10.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+              
+            
+          </div>
+        </article>
+        <footer id="footer" class="main-content-wrap">
+  <span class="copyrights">
+    &copy; 2020 Solaiman Hridoy. All Rights Reserved
+  </span>
+</footer>
+
+      </div>
+      <div id="bottom-bar" class="post-bottom-bar" data-behavior="4">
+        <div class="post-actions-wrap">
+  
+      <nav >
+        <ul class="post-actions post-action-nav">
+          
+            <li class="post-action">
+              
+                <a class="post-action-btn btn btn--disabled">
+              
+                  <i class="fa fa-angle-left"></i>
+                  <span class="hide-xs hide-sm text-small icon-ml">NEXT</span>
+                </a>
+            </li>
+            <li class="post-action">
+              
+                <a class="post-action-btn btn btn--default tooltip--top" href="https://www.solaimanhridoy.com/2020/08/%E0%A6%AC%E0%A7%8D%E0%A6%AF%E0%A6%95%E0%A7%8D%E0%A6%A4%E0%A6%BF%E0%A6%97%E0%A6%A4-%E0%A6%AC%E0%A7%8D%E0%A6%B2%E0%A6%97-%E0%A6%B8%E0%A6%BE%E0%A6%87%E0%A6%9F-%E0%A6%96%E0%A7%8B%E0%A6%B2%E0%A6%BE%E0%A6%B0-%E0%A6%86%E0%A6%A6%E0%A7%8D%E0%A6%AF%E0%A7%8B%E0%A6%AA%E0%A6%BE%E0%A6%A8%E0%A7%8D%E0%A6%A4/" data-tooltip="ব্যক্তিগত  ব্লগ  সাইট  খোলার  আদ্যোপান্ত">
+              
+                  <span class="hide-xs hide-sm text-small icon-mr">PREVIOUS</span>
+                  <i class="fa fa-angle-right"></i>
+                </a>
+            </li>
+          
+        </ul>
+      </nav>
+    <ul class="post-actions post-action-share" >
+      
+        <li class="post-action hide-lg hide-md hide-sm">
+          <a class="post-action-btn btn btn--default btn-open-shareoptions" href="#btn-open-shareoptions">
+            <i class="fa fa-share-alt"></i>
+          </a>
+        </li>
+        
+          <li class="post-action hide-xs">
+            <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=https://www.solaimanhridoy.com/2020/08/data-structures-using-python-array-based-sequences-part-1/">
+              <i class="fa fa-facebook-official"></i>
+            </a>
+          </li>
+        
+          <li class="post-action hide-xs">
+            <a class="post-action-btn btn btn--default" target="new" href="https://www.linkedin.com/%25!%28EXTRA%20string=https://www.solaimanhridoy.com/2020/08/data-structures-using-python-array-based-sequences-part-1/%29">
+              <i class="fa fa-linkedin"></i>
+            </a>
+          </li>
+        
+          <li class="post-action hide-xs">
+            <a class="post-action-btn btn btn--default" target="new" href="https://plus.google.com/share?url=https://www.solaimanhridoy.com/2020/08/data-structures-using-python-array-based-sequences-part-1/">
+              <i class="fa fa-google-plus"></i>
+            </a>
+          </li>
+        
+      
+      
+        <li class="post-action">
+          <a class="post-action-btn btn btn--default" href="#disqus_thread">
+            <i class="fa fa-comment-o"></i>
+          </a>
+        </li>
+      
+      <li class="post-action">
+        
+          <a class="post-action-btn btn btn--default" href="#">
+        
+          <i class="fa fa-list"></i>
+        </a>
+      </li>
+    </ul>
+  
+</div>
+
+      </div>
+      <div id="share-options-bar" class="share-options-bar" data-behavior="4">
+  <i id="btn-close-shareoptions" class="fa fa-close"></i>
+  <ul class="share-options">
+    
+      <li class="share-option">
+        <a class="share-option-btn" target="new" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.solaimanhridoy.com%2F2020%2F08%2Fdata-structures-using-python-array-based-sequences-part-1%2F">
+          <i class="fa fa-facebook-official"></i><span>Share on Facebook</span>
+        </a>
+      </li>
+    
+      <li class="share-option">
+        <a class="share-option-btn" target="new" href="https://www.linkedin.com/%25!%28EXTRA%20string=https%3A%2F%2Fwww.solaimanhridoy.com%2F2020%2F08%2Fdata-structures-using-python-array-based-sequences-part-1%2F%29">
+          <i class="fa fa-linkedin"></i><span>Share on Linkedin</span>
+        </a>
+      </li>
+    
+      <li class="share-option">
+        <a class="share-option-btn" target="new" href="https://plus.google.com/share?url=https%3A%2F%2Fwww.solaimanhridoy.com%2F2020%2F08%2Fdata-structures-using-python-array-based-sequences-part-1%2F">
+          <i class="fa fa-google-plus"></i><span>Share on Google&#43;</span>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+<div id="share-options-mask" class="share-options-mask"></div>
+    </div>
+    
+    <div id="about">
+  <div id="about-card">
+    <div id="about-btn-close">
+      <i class="fa fa-remove"></i>
+    </div>
+    
+      <img id="about-card-picture" src="https://res.cloudinary.com/ddlohuyww/image/upload/v1598202275/images/My-Pic02_rii70m.png" alt="Author&#39;s picture" />
+    
+    <h4 id="about-card-name">Solaiman Hridoy</h4>
+    
+      <div id="about-card-bio">Life Is <strong>Gorgeous</strong></div>
+    
+    
+      <div id="about-card-job">
+        <i class="fa fa-briefcase"></i>
+        <br/>
+        Student|Computer Science and Engineering
+      </div>
+    
+    
+  </div>
+</div>
+
+    
+
+    
+  
+    <div id="cover" style="background-image:url('https://res.cloudinary.com/ddlohuyww/image/upload/v1598213283/images/IMG_20180819_173931_njuymm.jpg');"></div>
+  
+
+
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.7/js/jquery.fancybox.min.js" integrity="sha256-GEAnjcTqVP+vBp3SSc8bEDQqvWAZMiHyUSIorrWwH50=" crossorigin="anonymous"></script>
+
+
+<script src="https://www.solaimanhridoy.com/js/script-pcw6v3xilnxydl1vddzazdverrnn9ctynvnxgwho987mfyqkuylcb1nlt.min.js"></script>
+
+
+<script lang="javascript">
+window.onload = updateMinWidth;
+window.onresize = updateMinWidth;
+document.getElementById("sidebar").addEventListener("transitionend", updateMinWidth);
+function updateMinWidth() {
+  var sidebar = document.getElementById("sidebar");
+  var main = document.getElementById("main");
+  main.style.minWidth = "";
+  var w1 = getComputedStyle(main).getPropertyValue("min-width");
+  var w2 = getComputedStyle(sidebar).getPropertyValue("width");
+  var w3 = getComputedStyle(sidebar).getPropertyValue("left");
+  main.style.minWidth = `calc(${w1} - ${w2} - ${w3})`;
+}
+</script>
+
+<script>
+$(document).ready(function() {
+  hljs.configure({ classPrefix: '', useBR: false });
+  $('pre.code-highlight > code, pre > code').each(function(i, block) {
+    if (!$(this).hasClass('codeblock')) {
+      $(this).addClass('codeblock');
+    }
+    hljs.highlightBlock(block);
+  });
+});
+</script>
+
+
+  
+    
+      <script>
+        var disqus_config = function () {
+          this.page.url = 'https:\/\/www.solaimanhridoy.com\/2020\/08\/data-structures-using-python-array-based-sequences-part-1\/';
+          
+            this.page.identifier = '\/2020\/08\/data-structures-using-python-array-based-sequences-part-1\/'
+          
+        };
+        (function() {
+          
+          
+          if (window.location.hostname == "localhost") {
+            return;
+          }
+          var d = document, s = d.createElement('script');
+          var disqus_shortname = 'lib10';
+          s.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+
+          s.setAttribute('data-timestamp', +new Date());
+          (d.head || d.body).appendChild(s);
+        })();
+      </script>
+    
+  
+
+
+
+
+    
+  </body>
+</html>
+
