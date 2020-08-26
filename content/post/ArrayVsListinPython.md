@@ -168,7 +168,7 @@ We know It's very important to use the right data structure to write a good prog
 
 Among these types, **Arrays** are great for numerical, arithmetic operations and can store data very compactly and are more efficient storing **large** amounts of **data**. On the other hand operations on **tuples** can be executed **faster** compared to operations on **lists**. But when we need to modify the values it's quite efficient to use List and Array as they are mutable than using a tuple. To use different data types List can be most useful among these three although Tuple can contain elements from different data types for the immutable issue it's better to use List than Tuple.
 
-In the next part of this topic, we will see more discussion about Array-based sequences in Python their operations in more detail. Till then have a good night to you all!     
+In the next part of this topic, we will see more discussion about Array-based sequences in Python and their operations in more detail. Till then have a good night to you all!     
 
 
 
