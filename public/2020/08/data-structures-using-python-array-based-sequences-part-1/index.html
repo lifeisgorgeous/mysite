@@ -486,7 +486,54 @@ print(TopTenList)</code></pre>
   </table>
 </figure>
 <pre><code>output: &lt;class 'list'&gt;
-</code></pre><h3 id="revision-what-is-a-tuple">Revision: What is a Tuple?</h3>
+</code></pre><p>Let&rsquo;s see some operations on <code>TopTenList</code>:</p>
+
+  
+    
+  
+  
+  
+  
+
+
+<figure class="highlight  language-">
+  <figcaption>
+    
+      <span>ListOpeartionExample.py</span>
+    
+  </figcaption>
+  <table>
+    <tbody>
+      <tr>
+        <td class="gutter">
+          <pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre>
+        </td>
+        <td class="code">
+          <pre class="code-highlight language-"><code class="">#Use `listname.append ` to add an element into the last index of a list.
+
+TopTenList.append(110)     # [10, &#39;Twenty&#39;, 30, 40, 50, 60, &#39;Seventy&#39;, 80, &#39;Ninty&#39;, 100, 110]
+
+#Use `listname.inser(&#39;index No.&#39;, &#39;element&#39;)` to add an element into a certain position of a list.
+
+TopTenList.insert(0, &#39;Zero&#39;)    # [&#39;Zero&#39;, 10, &#39;Twenty&#39;, 30, 40, 50, 60, &#39;Seventy&#39;, 80, &#39;Ninty&#39;, 100, 110]
+
+#Use `listname.remove` to remove an element from a list
+
+TopTenList.remove(&#39;Ninty&#39;)    # [&#39;Zero&#39;, 10, &#39;Twenty&#39;, 30, 40, 50, 60, &#39;Seventy&#39;, 80, 100, 110]
+
+#Use list.reverse() to reverse a list
+
+list.reverse(TopTenList)    # [110, 100, 80, &#39;Seventy&#39;, 60, 50, 40, 30, &#39;Twenty&#39;, 10, &#39;Zero&#39;]
+
+#To modify a fixed position of index of a list
+
+TopTenList[2] = &#39;Ninty&#39;    # [110, 100, &#39;Ninty&#39;, &#39;Seventy&#39;, 60, 50, 40, 30, &#39;Twenty&#39;, 10, &#39;Zero&#39;]</code></pre>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</figure>
+<h3 id="revision-what-is-a-tuple">Revision: What is a Tuple?</h3>
 <p>A tuple is almost as like as the list data type, except in two ways. First, tuples are typed with parentheses, ( values ), instead of square brackets, [ values ], another is that the Tuples cannot have their values modified, appended, or removed. We can convert the tuple into a list, change the list, and convert the list back into a tuple and that is the one way to modify a tuple.</p>
 
   
@@ -550,8 +597,8 @@ print(TopTenTuple)</code></pre>
 </figure>
 <pre><code>output: &lt;class 'tuple'&gt;
 </code></pre><h3 id="so-when-and-where-we-will-use-among-these-three-types">So when and where we will use among these three types?</h3>
-<p>We know It&rsquo;s very important to use the right data structure to write a good program. So now we will have a look at some useful uses of Array, List, Tuple.</p>
-<p>Among these types, <strong>Arrays</strong> are great for numerical, arithmetic operations and can store data very compactly and are more efficient storing <strong>large</strong> amounts of <strong>data</strong>. On the other hand operations on <strong>tuples</strong> can be executed <strong>faster</strong> compared to operations on <strong>lists</strong>. But when we need to modify the values it&rsquo;s quite efficient to use List and Array as they are mutable than using a tuple. To use different data types List can be most useful among these three although Tuple can contain elements from different data types for the immutable issue it&rsquo;s better to use List than Tuple.</p>
+<p>We know that It&rsquo;s very important to use the right data structure to write a good program. So now we will have a look at some useful uses of Array, List, Tuple.</p>
+<p>Among these types, <strong>Arrays</strong> are great for numerical, arithmetic operations and can store data very compactly and are more efficient storing <strong>large</strong> collection of similar <strong>data types</strong>. When we use array module instead of the list, Python doesn&rsquo;t have to remember the data type details of each elements. Numpy Arrays are widely used in the data science world to work with multidimensional arrays for their efficiency of handling of large datasets. On the other hand operations on <strong>tuples</strong> can be executed <strong>faster</strong> compared to operations on <strong>lists</strong>. But when we need to modify the values it&rsquo;s quite efficient to use List and Array as they are mutable than using a tuple. To use different data types List can be most useful among these three although Tuple can contain elements from different data types for the immutable issue it&rsquo;s better to use List than Tuple.</p>
 <p>In the next part of this topic, we will see more discussion about Array-based sequences in Python and their operations in more detail. Till then have a good night to you all!</p>
 <p>Photo <a href="http://www.freepik.com">Designed by pressfoto</a></p>
               
