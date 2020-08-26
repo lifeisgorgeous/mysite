@@ -85,7 +85,7 @@ print(TopTenNP)
 Output: ['10' 'Twenty' '30' 'Forty' '50' '60' 'Seventy' '80' 'Ninty' '100']
 ```
 
-In the code snippets we can see that, we imported the NumPy package and named it np. Then we took a variable named ToptenNP and assigned some elements in different data types. Yes! NumPy array supports different data types where the array module doesn't support this kind of mixing. After calling the print function we found the output where we can the elements are in integers and strings.
+In the code snippets we can see that, we imported the NumPy package and named it np. Then we took a variable named ToptenNP and assigned some elements in different data types. Yes! NumPy array supports different data types where the array module doesn't support this kind of mixing. After calling the print function we found the output where we can see the elements are in integers and strings.
 To see the type of the `TopTenNP` type: 
 
 {{< codeblock  "numpyExample.py">}}
@@ -108,7 +108,7 @@ A list is also ordered, mutable but doesn't need to be unique in Python. We can 
 
 {{< codeblock  "listExample.py">}}
 
-TopTenList = [10, 'Twenty', 30, 40, 50, 60,'Seventy',80,'Ninty',100]
+TopTenList = [10, 'Twenty', 30, 40, 50, 60, 'Seventy', 80, 'Ninty', 100]
 print(TopTenList)
 
 {{< /codeblock >}}
@@ -117,7 +117,7 @@ print(TopTenList)
 Output: [10, 'Twenty', 30, 40, 50, 60, 'Seventy', 80, 'Ninty', 100]
 ```
 
-Here we don't need to import any module or packages to use a List in Python cause List is a built-in data structure in Python. We took a variable named ToptenList and assigned some elements in different data types. The list supports different data types like NumPy Array. In the output we can the elements are showing in integers and strings as to how Python interpreter does this always for use! 
+Here we don't need to import any module or packages to use a List in Python cause List is a built-in data structure in Python. We took a variable named ToptenList and assigned some elements in different data types. The list supports different data types like NumPy Array. In the output we can see the elements are showing in integers and strings as to how Python interpreter does this always for us! 
 
 To see the type of the `TopTenList` : 
 
