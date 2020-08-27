@@ -27,7 +27,7 @@ coverCaption: "Photo by pressfoto"
 
 I started to explore the uses of the data structures more in-depth in Python. Suddenly, a question stuck in my mind that can we use a list in replace of an array in Python. Then I started a little research from books and over the Internet and tried to tie up what I learn in this blog.
 
-**Note**: In Python, we write programs from an abstraction level, that’s why it’s also called high-level programming language that means Python is more human-readable code than machine-readable. To understand the core concept of an Array-based sequence more in-depth, in Part 2 of this blog we will discuss the concept of the low-level array and dynamic array class in Python. I will try to write more relevant details of those concepts in the next part very soon! This blog may not be helpful for very beginners in programming. For whom it may concern, who knows Python or any other programming language or the basics of programming let’s deep dive into the similarities and differences between Array, List, and Tuple using Python!
+**Note**: In Python, we write programs from an abstraction level, that’s why it’s also called high-level programming language that means Python is more human-readable code than machine-readable. To understand the core concept of an Array-based sequence more in-depth, in Part 2 of this blog we will discuss the concept of the low-level array and dynamic array class in Python. I will try to write more relevant details of those concepts in the next part very soon! This blog may not be helpful for very beginners in programming. For whom it may concern, who knows Python or any other programming language or the basics of programming let’s dive deeper into the similarities and differences between Array, List, and Tuple using Python!
 
 ###  Revision: What is an Array?
 
@@ -68,6 +68,48 @@ print(type(TopTen))
 ```
 Output : <class 'array.array'>
 ```
+
+Let's see some operations on `TopTen` array:
+
+{{< codeblock  "arrayOperationExample.py">}}
+
+#To see the length in bytes of one array item in the internal representation
+
+TopTen.itemsize     # Output: 4
+
+#To append or add a new item to the end of the array
+
+TopTen.append(110)    # array('i', [10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110])
+
+#To see the number of a element appears to an array
+
+TopTen.count(110)    # Output: 1
+
+#To return index no. of the first occurrence of a value in the array 
+
+TopTen.index(100)  # Output: 9
+
+#To insert an element into an specific index
+
+TopTen.insert(2, 120)   # array('i', [10, 20, 120, 30, 40, 50, 60, 70, 80, 90, 100, 110])
+
+#To remove the item with the index i from the array and returns it.
+
+TopTen.pop(2)    # Element '120' removed. array('i', [10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110])
+
+#To remove an element from an array
+
+TopTen.remove(30)    # array('i', [10, 20, 40, 50, 60, 70, 80, 90, 100, 110])
+
+#To reverse an element
+
+TopTen.reverse()     # array('i', [110, 100, 90, 80, 70, 60, 50, 40, 20, 10])
+
+#To convert the array to an ordinary list with the same items
+
+TopTen.tolist()    # [110, 100, 90, 80, 70, 60, 50, 40, 20, 10]
+
+{{< /codeblock >}}
 
 ii) Importing by NumPy Packages:
 
@@ -190,7 +232,7 @@ output: <class 'tuple'>
 
 We know that It's very important to use the right data structure to write a good program. So now we will have a look at some useful uses of Array, List, Tuple.
 
-Among these types, **Arrays** are great for numerical, arithmetic operations and can store data very compactly and are more efficient storing **large** collection of similar **data types**. When we use array module instead of the list, Python doesn't have to remember the data type details of each elements. Numpy Arrays are widely used in the data science world to work with multidimensional arrays for their efficiency of handling of large datasets. On the other hand operations on **tuples** can be executed **faster** compared to operations on **lists**. But when we need to modify the values it's quite efficient to use List and Array as they are mutable than using a tuple. To use different data types List can be most useful among these three although Tuple can contain elements from different data types for the immutable issue it's better to use List than Tuple.
+Among these three types, **Arrays** are great for numerical, arithmetic operations and can store data very compactly and are more efficient storing a **large** collection of similar **data types**. When we use the array module instead of the list, Python doesn't have to remember the data type details of each element. Numpy Arrays are widely used in the data science world to work with multidimensional arrays for their efficiency of handling of large datasets. On the other hand operations on **tuples** can be executed **faster** compared to operations on **lists**. But when we need to modify the values it's quite efficient to use List and Array as they are mutable than using a tuple. To use different data types List can be most useful among these three although Tuple can contain elements from different data types for the immutable issue it's better to use List than Tuple.
 
 In the next part of this topic, we will see more discussion about Array-based sequences in Python and their operations in more detail. Till then have a good night to you all!     
 
