@@ -39,7 +39,7 @@ In Python, arrays are ordered, mutable, and can be stored as non-unique items.
 
 There are two ways to use an Array in Python: 
 
-i) Importing by Array module:
+**i) Importing by Array module:**
 
 {{< codeblock "arrayExample.py" "python">}}
 
@@ -111,7 +111,7 @@ TopTen.tolist()    # [110, 100, 90, 80, 70, 60, 50, 40, 20, 10]
 
 {{< /codeblock >}}
 
-ii) Importing by NumPy Packages:
+**ii) Importing by NumPy Packages:**
 
 {{< codeblock  "numpyExample.py">}}
 
@@ -140,7 +140,137 @@ print(type(TopTenNP))
 Output: <class 'numpy.ndarray'>
 ```
 
+**NumPy Array** is a powerful multi-dimensional array object. It can also be formed of rows and columns. 
 
+Let's see some operations of NumPy Array:
+
+{{< codeblock  "numpyOperationsExample.py">}}
+
+#To create a random (rows*columns = 2 * 2) array with integer elements
+
+array1 = np.arange(4, dtype = np.int_).reshape(2, 2)    
+
+"""
+
+Output:
+
+[[0 1]
+ [2 3]]
+
+""" 	
+
+#To create an array of 4-byte integer elements by assigning their values
+
+array2 = np.array([[1, 2], [4, 5]], np.int32)    
+
+"""
+
+Output:
+
+[[1 2]
+ [4 5]]
+
+""" 																	 
+
+#To get addition of two arrays
+
+np.add(array1, array2)
+
+"""
+
+Output:
+
+array([[1, 3],
+       [6, 8]])
+
+"""
+
+#To get subtraction of two arrays
+
+np.subtract(array1, array2)
+
+"""
+
+Output:
+
+array([[-1, -1],
+       [-2, -2]])
+
+"""
+
+#To get multiplication of two arrays
+
+"""
+
+Output:
+
+array([[ 0,  2],
+       [ 8, 15]])
+
+"""
+
+#To get division from two arrays
+
+np.divide(array1, array2)
+
+"""
+
+Output:
+
+array([[0. , 0.5],
+       [0.5, 0.6]])
+
+"""
+
+#To apply power operation on two arrays
+
+np.power(array2, array1)
+
+"""
+
+Output:
+
+array([[  1,   2],
+       [ 16, 125]])
+
+"""
+
+np.power(array2, 2)   # array2 to the power (2) 
+
+"""
+
+Output:
+
+array([[ 1,  4],
+       [16, 25]], dtype=int32)
+
+"""
+
+#To get mod of two arrays
+
+np.mod(array1, array2)
+
+"""
+
+Output:
+
+array([[0, 1],
+       [2, 3]])
+
+"""
+
+np.mod(array2, 2)   # array2 mod by 2
+
+"""
+
+Output:
+
+array([[1, 0],
+       [0, 1]], dtype=int32)
+
+"""
+
+{{< /codeblock >}}
 
 ### Revision: What is a List?
 
