@@ -360,11 +360,11 @@ output: <class 'tuple'>
 
 ### So when and where we will use among these three types?
 
-We know that It's very important to use the right data structure to write a good program. So now we will have a look at some useful uses of Array, List, Tuple.
+We know that It's very important to use the right data structure to write a good program. So now we will have a look at some useful uses of Arrays, Lists, and Tuples.
 
-Among these three types, **Arrays** are great for numerical, arithmetic operations and can store data very compactly and are more efficient storing a **large** collection of similar **data types**. When we use the array module instead of the list, Python doesn't have to remember the data type details of each element. Numpy Arrays are widely used in the data science world to work with multidimensional arrays for their efficiency of handling of large datasets. On the other hand operations on **tuples** can be executed **faster** compared to operations on **lists**. But when we need to modify the values it's quite efficient to use List and Array as they are mutable than using a tuple. To use different data types List can be most useful among these three although Tuple can contain elements from different data types for the immutable issue it's better to use List than Tuple.
+Among these three types, **Arrays** are great for numerical, arithmetic operations and can store data very compactly and are more efficient storing a **large** collection of similar **data types**. When we use the array module instead of the list, Python doesn't have to remember the data type details of each element. NumPy Arrays are widely used in the data science world to work with multidimensional arrays for their efficiency of handling of large datasets. On the other hand operations on **tuples** can be executed **faster** compared to operations on **lists**. But when we need to modify the values it's quite efficient to use List and Array as they are mutable than using a Tuple. To use different data types List can be most useful among these three although Tuple can contain elements from different data types  but for the immutable issue it's better to use a List than a Tuple.
 
-In the next part of this topic, we will see more discussion about Array-based sequences in Python and their operations in more detail. Till then have a good night to you all!     
+In the next part of this topic, we will see more discussion about Array-based sequences in Python and their operations in more detail. Till then, have a good night to you all!     
 
 
 
