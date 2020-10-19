@@ -1,0 +1,51 @@
+---
+title: "Let's Make An HTTP Server"
+description: "Let's Make An HTTP Server"
+date: 2020-10-11T19:38:18+06:00
+categories:
+- Server
+tags:
+- Python
+- Programming
+keywords:
+- tech
+- HTTP
+- Python
+
+draft: false
+
+thumbnailImage: https://res.cloudinary.com/ddlohuyww/image/upload/v1598290385/images/18705_iimcyw.png
+thumbnailImagePosition: "top"
+thumbnailImage: https://res.cloudinary.com/ddlohuyww/image/upload/v1598290385/images/18705_iimcyw.png
+coverImage: https://res.cloudinary.com/ddlohuyww/image/upload/v1598290385/images/18705_iimcyw.png
+metaAlignment: center
+coverCaption: "Photo by pressfoto"
+---
+
+# Let's Make An HTTP Server
+
+To publish all HTML file successfully type:
+
+- hugo -D server
+- hugo -D
+- hugo new post/BanglaBlog002.md
+- hugo --verbose
+
+
+hugo new filelocation/filename
+
+baseurl="\\" or baseurl = "domain.com"
+
+Use www. as custom domain
+
+
+
+My Domain Namserver (ExonHost)
+
+NameServer 1 : earth.exonhost.com
+
+NameServer 2 : mars.exonhost.com
+
+NameServer 3 :  neptune.exonhost.com                                      
+
+NameServer 4 : uranus.exonhost.com

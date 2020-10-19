@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: True
 
 title: "Data Structures Using Python: Array Based-Sequences [Part -2]"
 description: "Array Vs List Vs Tupple"

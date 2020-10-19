@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Solaiman&#39;s Blog</title>
+    <link>https://www.solaimanhridoy.com/post/</link>
+    <description>Recent content in Posts on Solaiman&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 11 Oct 2020 19:38:18 +0600</lastBuildDate>
+    
+	<atom:link href="https://www.solaimanhridoy.com/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Let&#39;s Make An HTTP Server</title>
+      <link>https://www.solaimanhridoy.com/2020/10/lets-make-an-http-server/</link>
+      <pubDate>Sun, 11 Oct 2020 19:38:18 +0600</pubDate>
+      
+      <guid>https://www.solaimanhridoy.com/2020/10/lets-make-an-http-server/</guid>
+      <description>Let&amp;rsquo;s Make An HTTP Server To publish all HTML file successfully type:</description>
+    </item>
+    
+    <item>
+      <title>Data Structures Using Python: Array Based-Sequences [Part -1]</title>
+      <link>https://www.solaimanhridoy.com/2020/08/data-structures-using-python-array-based-sequences-part-1/</link>
+      <pubDate>Mon, 24 Aug 2020 23:22:47 +0600</pubDate>
+      
+      <guid>https://www.solaimanhridoy.com/2020/08/data-structures-using-python-array-based-sequences-part-1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ব্যক্তিগত  ব্লগ  সাইট  খোলার  আদ্যোপান্ত</title>
+      <link>https://www.solaimanhridoy.com/2020/08/%E0%A6%AC%E0%A7%8D%E0%A6%AF%E0%A6%95%E0%A7%8D%E0%A6%A4%E0%A6%BF%E0%A6%97%E0%A6%A4-%E0%A6%AC%E0%A7%8D%E0%A6%B2%E0%A6%97-%E0%A6%B8%E0%A6%BE%E0%A6%87%E0%A6%9F-%E0%A6%96%E0%A7%8B%E0%A6%B2%E0%A6%BE%E0%A6%B0-%E0%A6%86%E0%A6%A6%E0%A7%8D%E0%A6%AF%E0%A7%8B%E0%A6%AA%E0%A6%BE%E0%A6%A8%E0%A7%8D%E0%A6%A4/</link>
+      <pubDate>Sun, 23 Aug 2020 22:28:25 +0600</pubDate>
+      
+      <guid>https://www.solaimanhridoy.com/2020/08/%E0%A6%AC%E0%A7%8D%E0%A6%AF%E0%A6%95%E0%A7%8D%E0%A6%A4%E0%A6%BF%E0%A6%97%E0%A6%A4-%E0%A6%AC%E0%A7%8D%E0%A6%B2%E0%A6%97-%E0%A6%B8%E0%A6%BE%E0%A6%87%E0%A6%9F-%E0%A6%96%E0%A7%8B%E0%A6%B2%E0%A6%BE%E0%A6%B0-%E0%A6%86%E0%A6%A6%E0%A7%8D%E0%A6%AF%E0%A7%8B%E0%A6%AA%E0%A6%BE%E0%A6%A8%E0%A7%8D%E0%A6%A4/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>জীবন ছিলো সুন্দর!</title>
+      <link>https://www.solaimanhridoy.com/2020/08/%E0%A6%9C%E0%A7%80%E0%A6%AC%E0%A6%A8-%E0%A6%9B%E0%A6%BF%E0%A6%B2%E0%A7%8B-%E0%A6%B8%E0%A7%81%E0%A6%A8%E0%A7%8D%E0%A6%A6%E0%A6%B0/</link>
+      <pubDate>Sat, 22 Aug 2020 22:26:59 +0600</pubDate>
+      
+      <guid>https://www.solaimanhridoy.com/2020/08/%E0%A6%9C%E0%A7%80%E0%A6%AC%E0%A6%A8-%E0%A6%9B%E0%A6%BF%E0%A6%B2%E0%A7%8B-%E0%A6%B8%E0%A7%81%E0%A6%A8%E0%A7%8D%E0%A6%A6%E0%A6%B0/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>My First Post</title>
+      <link>https://www.solaimanhridoy.com/2020/08/my-first-post/</link>
+      <pubDate>Mon, 17 Aug 2020 15:31:48 +0600</pubDate>
+      
+      <guid>https://www.solaimanhridoy.com/2020/08/my-first-post/</guid>
+      <description>I can&amp;rsquo;t explain with just in one blog how much fun it was to begin my personal website! I will try to share those stories in my upcoming blogs.</description>
+    </item>
+    
+  </channel>
+</rss>
