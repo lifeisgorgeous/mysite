@@ -6,10 +6,19 @@
     <description>Recent content on Solaiman&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 11 Oct 2020 19:38:18 +0600</lastBuildDate>
+    <lastBuildDate>Sat, 31 Oct 2020 23:04:18 +0600</lastBuildDate>
     
 	<atom:link href="https://www.solaimanhridoy.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Python3 Intermediates: List</title>
+      <link>https://www.solaimanhridoy.com/2020/10/python3-intermediates-list/</link>
+      <pubDate>Sat, 31 Oct 2020 23:04:18 +0600</pubDate>
+      
+      <guid>https://www.solaimanhridoy.com/2020/10/python3-intermediates-list/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Let&#39;s Make An HTTP Server</title>
