@@ -63,6 +63,6 @@ Then the two verses from the song:
 >
 > And it's the only thing we take with us when we die.
 
-These two verses tell two sides of love - 'hurting' and 'healing'. In the first verse, Ed wrote about the hurting side of love but still, he believes that love is the only thing that makes us feel alive. Then in the second verse, he wrote about the healing side of love where he tried to convince his lover that he will be alright and tell his lover to remember him through those photographs. Cause love is the thing that we take with us when we die. 
+These two verses tell two sides of love - 'hurting' and 'healing'.  In the first verse, Ed wrote about the hurting side of love but still, he believes that love is the only thing that makes us feel alive. Then in the second verse, he wrote about the healing side of love where he tried to convince his lover that he will be alright and tell his lover to remember him through those photographs. Cause love is the thing that we take with us when we die. 
 
 I'm sure most of us can relate to these words and finally, the song also got a big hit in the year 2015.
