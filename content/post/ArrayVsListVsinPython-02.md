@@ -5,18 +5,19 @@ title: "Data Structures Using Python: Array Based-Sequences [Part -2]"
 description: "Array Vs List Vs Tupple"
 date: 2020-08-29T19:47:18+06:00
 categories:
+- Programming 
+- Python
 - Data Structure
 tags:
+- Programming 
 - Python
-- Programming
 keywords:
 - Array
 - List
 - Tuple
 - Python
-thumbnailImage: https://res.cloudinary.com/ddlohuyww/image/upload/v1598290385/images/18705_iimcyw.png
-thumbnailImagePosition: "top"
-thumbnailImage: https://res.cloudinary.com/ddlohuyww/image/upload/v1598290385/images/18705_iimcyw.png
+thumbnailImage: https://res.cloudinary.com/ddlohuyww/image/upload/c_crop,h_400,w_400/v1598290385/images/18705_iimcyw.png
+thumbnailImagePosition: left
 coverImage: https://res.cloudinary.com/ddlohuyww/image/upload/v1598290385/images/18705_iimcyw.png
 metaAlignment: center
 coverCaption: "Photo by pressfoto"

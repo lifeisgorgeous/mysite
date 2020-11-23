@@ -2,14 +2,16 @@
 title: "Python3 Intermediates: List"
 date: 2020-10-31T23:04:18+06:00
 categories:
+- Programming 
 - Python
-- Programming
+- Data Structure
 tags:
+- Programming 
 - Python
-- Programming
 keywords:
 - List
-#thumbnailImage: //example.com/image.jpg
+thumbnailImage: https://res.cloudinary.com/ddlohuyww/image/upload/c_crop,h_400,w_400/v1598290385/images/18705_iimcyw.png
+thumbnailImagePosition: right
 ---
 
 <!--more-->

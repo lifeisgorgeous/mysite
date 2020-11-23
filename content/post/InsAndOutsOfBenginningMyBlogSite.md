@@ -9,8 +9,8 @@ tags:
 - শিক্ষা
 keywords:
 - blog
-thumbnailImagePosition: "top"
-thumbnailImage: //res.cloudinary.com/ddlohuyww/image/upload/v1598203720/images/888_dov7sm.png
+thumbnailImagePosition: left
+thumbnailImage: https://res.cloudinary.com/ddlohuyww/image/upload/c_crop,h_400,w_400/v1598203720/images/888_dov7sm.png
 coverImage: https://res.cloudinary.com/ddlohuyww/image/upload/v1598203927/images/blur888_nqhspw.png
 metaAlignment: center
 coverCaption: "A Blog Post"
