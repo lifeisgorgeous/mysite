@@ -1,4 +1,5 @@
 ---
+draft: True
 title: "Cover Song: Photograph - The song that belongs to my heart!"
 date: 2020-11-23T12:13:02+06:00
 thumbnailImagePosition: left
