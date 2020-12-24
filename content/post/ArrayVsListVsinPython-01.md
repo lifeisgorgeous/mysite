@@ -2,7 +2,6 @@
 title: "Data Structures Using Python: Array Based-Sequences [Part -1]"
 description: "Array Vs List Vs Tupple"
 date: 2020-08-24T23:22:47+06:00
-thumbnailImagePosition: right
 categories:
 - Programming 
 - Python
