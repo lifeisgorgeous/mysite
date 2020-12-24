@@ -15,9 +15,9 @@ keywords:
 - List
 - Tuple
 - Python
-coverImage: https://res.cloudinary.com/ddlohuyww/image/upload/v1598290385/images/18705_iimcyw.png
+coverImage: 
 metaAlignment: center
-coverCaption: "Photo by pressfoto"
+coverCaption: 
 ---
 
 <!--more-->
