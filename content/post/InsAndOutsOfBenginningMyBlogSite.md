@@ -9,7 +9,7 @@ tags:
 - শিক্ষা
 keywords:
 - blog
-
+thumbnailImage: False
 coverImage: https://res.cloudinary.com/ddlohuyww/image/upload/v1598203927/images/blur888_nqhspw.png
 metaAlignment: center
 coverCaption: "A Blog Post"

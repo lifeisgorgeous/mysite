@@ -9,6 +9,7 @@ categories:
 tags:
 - Programming 
 - Python
+thumbnailImage: False
 keywords:
 - Array
 - List
