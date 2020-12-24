@@ -10,8 +10,8 @@ tags:
 - Python
 keywords:
 - List
-thumbnailImage: https://res.cloudinary.com/ddlohuyww/image/upload/c_crop,h_400,w_400/v1598290385/images/18705_iimcyw.png
-thumbnailImagePosition: right
+# thumbnailImage: https://res.cloudinary.com/ddlohuyww/image/upload/c_crop,h_400,w_400/v1598290385/images/18705_iimcyw.png
+# thumbnailImagePosition: right
 ---
 
 <!--more-->
