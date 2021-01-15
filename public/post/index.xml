@@ -17,11 +17,11 @@
       <pubDate>Sun, 03 Jan 2021 17:52:50 +0600</pubDate>
       
       <guid>https://www.solaimanhridoy.com/2021/01/learn-bash-script/</guid>
-      <description>Learn Bash Script  Prerequisites: Experience ( At least Beginner Level) with Linux or OS X command line, fundamentals of programming
-Main Focus: Multi line scripts.
+      <description>Learn Bash Script Prerequisites: Experience ( At least Beginner Level) with Linux or OS X command line, fundamentals of programming
+Main Focus: Multiline scripts.
 Prior Setup:
  nano/vim/emacs or sublimeText/TextWrangler/TextMate/gedit etc. Linux machine or virtual machine or Mac OS X ternminal  For the windows user:
- Set a local linux virtual machine. Set PuTTy to connect to a linux machine. A ports of Bash for windows also exists.</description>
+ Set a local Linux virtual machine. Set PuTTy to connect to a Linux machine. A port of Bash for windows also exists. Look into batch scripts to script for windows.</description>
     </item>
     
     <item>

@@ -8,34 +8,34 @@
 <meta name="generator" content="Hugo 0.74.3 with theme Tranquilpeak 0.4.8-BETA">
 <meta name="author" content="Solaiman Hridoy">
 <meta name="keywords" content="">
-<meta name="description" content="Learn Bash Script  Prerequisites: Experience ( At least Beginner Level) with Linux or OS X command line, fundamentals of programming
-Main Focus: Multi line scripts.
+<meta name="description" content="Learn Bash Script Prerequisites: Experience ( At least Beginner Level) with Linux or OS X command line, fundamentals of programming
+Main Focus: Multiline scripts.
 Prior Setup:
  nano/vim/emacs or sublimeText/TextWrangler/TextMate/gedit etc. Linux machine or virtual machine or Mac OS X ternminal  For the windows user:
- Set a local linux virtual machine. Set PuTTy to connect to a linux machine. A ports of Bash for windows also exists.">
+ Set a local Linux virtual machine. Set PuTTy to connect to a Linux machine. A port of Bash for windows also exists. Look into batch scripts to script for windows.">
 
 
-<meta property="og:description" content="Learn Bash Script  Prerequisites: Experience ( At least Beginner Level) with Linux or OS X command line, fundamentals of programming
-Main Focus: Multi line scripts.
+<meta property="og:description" content="Learn Bash Script Prerequisites: Experience ( At least Beginner Level) with Linux or OS X command line, fundamentals of programming
+Main Focus: Multiline scripts.
 Prior Setup:
  nano/vim/emacs or sublimeText/TextWrangler/TextMate/gedit etc. Linux machine or virtual machine or Mac OS X ternminal  For the windows user:
- Set a local linux virtual machine. Set PuTTy to connect to a linux machine. A ports of Bash for windows also exists.">
+ Set a local Linux virtual machine. Set PuTTy to connect to a Linux machine. A port of Bash for windows also exists. Look into batch scripts to script for windows.">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Learn Bash Script">
 <meta name="twitter:title" content="Learn Bash Script">
 <meta property="og:url" content="https://www.solaimanhridoy.com/2021/01/learn-bash-script/">
 <meta property="twitter:url" content="https://www.solaimanhridoy.com/2021/01/learn-bash-script/">
 <meta property="og:site_name" content="Solaiman&#39;s Blog">
-<meta property="og:description" content="Learn Bash Script  Prerequisites: Experience ( At least Beginner Level) with Linux or OS X command line, fundamentals of programming
-Main Focus: Multi line scripts.
+<meta property="og:description" content="Learn Bash Script Prerequisites: Experience ( At least Beginner Level) with Linux or OS X command line, fundamentals of programming
+Main Focus: Multiline scripts.
 Prior Setup:
  nano/vim/emacs or sublimeText/TextWrangler/TextMate/gedit etc. Linux machine or virtual machine or Mac OS X ternminal  For the windows user:
- Set a local linux virtual machine. Set PuTTy to connect to a linux machine. A ports of Bash for windows also exists.">
-<meta name="twitter:description" content="Learn Bash Script  Prerequisites: Experience ( At least Beginner Level) with Linux or OS X command line, fundamentals of programming
-Main Focus: Multi line scripts.
+ Set a local Linux virtual machine. Set PuTTy to connect to a Linux machine. A port of Bash for windows also exists. Look into batch scripts to script for windows.">
+<meta name="twitter:description" content="Learn Bash Script Prerequisites: Experience ( At least Beginner Level) with Linux or OS X command line, fundamentals of programming
+Main Focus: Multiline scripts.
 Prior Setup:
  nano/vim/emacs or sublimeText/TextWrangler/TextMate/gedit etc. Linux machine or virtual machine or Mac OS X ternminal  For the windows user:
- Set a local linux virtual machine. Set PuTTy to connect to a linux machine. A ports of Bash for windows also exists.">
+ Set a local Linux virtual machine. Set PuTTy to connect to a Linux machine. A port of Bash for windows also exists. Look into batch scripts to script for windows.">
 <meta property="og:locale" content="en-us">
 
   
@@ -287,9 +287,8 @@ if (!doNotTrack) {
           <div class="post-content markdown" itemprop="articleBody">
             <div class="main-content-wrap">
               <h2 id="learn-bash-script">Learn Bash Script</h2>
-<hr>
-<p><strong>Prerequisites:</strong>  Experience ( At least Beginner Level) with Linux or OS X command line, fundamentals of programming</p>
-<p><strong>Main Focus:</strong> Multi line scripts.</p>
+<p><strong>Prerequisites:</strong> Experience ( At least Beginner Level) with Linux or OS X command line, fundamentals of programming</p>
+<p><strong>Main Focus:</strong> Multiline scripts.</p>
 <p><strong>Prior Setup:</strong></p>
 <ul>
 <li>nano/vim/emacs or sublimeText/TextWrangler/TextMate/gedit etc.</li>
@@ -297,38 +296,28 @@ if (!doNotTrack) {
 </ul>
 <p><strong>For the windows user:</strong></p>
 <ul>
-<li>Set a local linux virtual machine.</li>
-<li>Set PuTTy to connect to a linux machine.</li>
-<li>A ports of Bash for windows also exists.</li>
-<li>Look into bacth scripts to script for windwos.</li>
+<li>Set a local Linux virtual machine.</li>
+<li>Set PuTTy to connect to a Linux machine.</li>
+<li>A port of Bash for windows also exists.</li>
+<li>Look into batch scripts to script for windows.</li>
 </ul>
-<p>In this blog we will use nano editor on Ubuntu 20.04 terminal.</p>
-<p>To check <em>bash</em> version type from terminal:</p>
+<p>In this blog, we will use a nano editor on Ubuntu 20.04 terminal.</p>
+<p>To check <em>bash</em> version type from the terminal:</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-t" data-lang="t">echo $BASH_VERSION
 </code></pre></div><p><img src="https://res.cloudinary.com/ddlohuyww/image/upload/v1610712404/images/img/01_batz96.png" alt=""></p>
 <h3 id="what-is-bash">What is BASH?</h3>
 <ul>
 <li>Bourne Again Shell</li>
-<li>A popular interactive command line interpreter.</li>
+<li>A popular interactive command-line interpreter.</li>
 </ul>
 <h3 id="history-by-year">History by Year:</h3>
 <ul>
-<li>
-<p>1971: Thompson Shell (first UNIX shell)</p>
-</li>
-<li>
-<p>1975: Mashey Shell</p>
-</li>
-<li>
-<p>1977: Bourne Shell (sh)</p>
-<p>some features from ALGOL</p>
-</li>
-<li>
-<p>1978: C Shell (csh) - more similiar to C</p>
-</li>
-<li>
-<p>1989: Bourne Again Shell (Bash) - Released by Brian Fox for GNU Project (gnu.org), maintained by Chet Ramey</p>
-</li>
+<li>1971: Thompson Shell (first UNIX shell)</li>
+<li>1975: Mashey Shell</li>
+<li>1977: Bourne Shell (sh)</li>
+<li>some features from ALGOL</li>
+<li>1978: C Shell (csh) - more similar to C</li>
+<li>1989: Bourne Again Shell (Bash) - Released by Brian Fox for GNU Project (gnu.org), maintained by Chet Ramey</li>
 </ul>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">pwd <span style="color:#75715e"># Current working directory</span>
 ls <span style="color:#75715e"># List all the files and directory of current working driectory</span>

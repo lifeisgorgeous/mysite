@@ -15,11 +15,9 @@ keywords:
 
 ## Learn Bash Script
 
-------
+**Prerequisites:** Experience ( At least Beginner Level) with Linux or OS X command line, fundamentals of programming
 
-**Prerequisites:**  Experience ( At least Beginner Level) with Linux or OS X command line, fundamentals of programming
-
-**Main Focus:** Multi line scripts.
+**Main Focus:** Multiline scripts.
 
 **Prior Setup:** 
 
@@ -28,14 +26,14 @@ keywords:
 
 **For the windows user:**
 
-- Set a local linux virtual machine.
-- Set PuTTy to connect to a linux machine.
-- A ports of Bash for windows also exists.
-- Look into bacth scripts to script for windwos.
+- Set a local Linux virtual machine.
+- Set PuTTy to connect to a Linux machine.
+- A port of Bash for windows also exists.
+- Look into batch scripts to script for windows.
 
-In this blog we will use nano editor on Ubuntu 20.04 terminal.
+In this blog, we will use a nano editor on Ubuntu 20.04 terminal.
 
- To check *bash* version type from terminal:
+ To check *bash* version type from the terminal:
 
 ```t
 echo $BASH_VERSION
@@ -46,20 +44,15 @@ echo $BASH_VERSION
 ### What is BASH?
 
 - Bourne Again Shell
-- A popular interactive command line interpreter.
+- A popular interactive command-line interpreter.
 
 ### History by Year:
 
 - 1971: Thompson Shell (first UNIX shell)
-
 - 1975: Mashey Shell
-
 - 1977: Bourne Shell (sh)
-
-  some features from ALGOL
-
-- 1978: C Shell (csh) - more similiar to C
-
+- some features from ALGOL
+- 1978: C Shell (csh) - more similar to C
 - 1989: Bourne Again Shell (Bash) - Released by Brian Fox for GNU Project (gnu.org), maintained by Chet Ramey 
 
 ```bash
