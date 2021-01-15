@@ -6,10 +6,23 @@
     <description>Recent content in Posts on Solaiman&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 23 Nov 2020 12:13:02 +0600</lastBuildDate>
+    <lastBuildDate>Sun, 03 Jan 2021 17:52:50 +0600</lastBuildDate>
     
 	<atom:link href="https://www.solaimanhridoy.com/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Learn Bash Script</title>
+      <link>https://www.solaimanhridoy.com/2021/01/learn-bash-script/</link>
+      <pubDate>Sun, 03 Jan 2021 17:52:50 +0600</pubDate>
+      
+      <guid>https://www.solaimanhridoy.com/2021/01/learn-bash-script/</guid>
+      <description>Learn Bash Script  Prerequisites: Experience ( At least Beginner Level) with Linux or OS X command line, fundamentals of programming
+Main Focus: Multi line scripts.
+Prior Setup:
+ nano/vim/emacs or sublimeText/TextWrangler/TextMate/gedit etc. Linux machine or virtual machine or Mac OS X ternminal  For the windows user:
+ Set a local linux virtual machine. Set PuTTy to connect to a linux machine. A ports of Bash for windows also exists.</description>
+    </item>
     
     <item>
       <title>Cover Song: Photograph - The song that belongs to my heart!</title>
